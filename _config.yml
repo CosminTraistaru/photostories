@@ -1,0 +1,81 @@
+title: Lorena Dumitrașcu Photo Stories
+url: "https://lorenadumitrascu.ru"
+baseurl:
+
+# Default description in social shares for the jekyll-seo-tag gem
+description: Lorena Dumitrașcu Photo Stories.
+
+# Author details for the jekyll-seo-tag gem
+author:
+  name: Lorena Dumitrașcu
+  email:
+  twitter: LorenaDumitrasc # twitter username without the @ symbol
+  twitter_url: https://twitter.com/LorenaDumitrasc
+  facebook: Dumitrascu.Lorena
+  facebook_url: https://fb.com/Dumitrascu.Lorena
+  instagram: lorena_dumitrascu
+  instagram_url: https://www.instagram.com/lorena_dumitrascu/
+
+# Social details for the jekyll-seo-tag gem
+social:
+  name: Lorena Dumitrașcu Photo Stories
+  links:
+    - https://twitter.com/LorenaDumitrasc
+    - https://fb.com/Dumitrascu.Lorena
+    - https://www.instagram.com/lorena_dumitrascu/
+
+collections:
+  projects:
+    output: true
+
+paginate: 10
+paginate_path: "/blog/:num/"
+permalink: pretty
+
+jekyll-archives:
+  enabled:
+    - "categories"
+
+gems:
+  - "jekyll-feed"
+  - "jekyll-paginate"
+  - "jekyll-archives"
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: "project"
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+  - scope:
+      path: "index.html"
+      type: "pages"
+    values:
+      layout: "default"
+
+# -----------
+# CloudCannon
+
+social_icons:
+  - Facebook
+  - Instagram
+  - Pinterest
+
+google_site_verification:
+yandex_verification:
+bing_verification:
+pintrest_verification:
+
+facebook:
+  page_id:
+  app_id:

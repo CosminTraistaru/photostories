@@ -1,0 +1,26 @@
+---
+title: Lorena Dumitrașcu
+---
+
+<section class="hero diagonal">
+	<div class="container">
+		<h2 class="editable">Lorena Dumitrașcu</h2>
+	</div>
+</section>
+
+<section class="diagonal patterned">
+	<div class="container">
+		<div>
+			<h3 class="editable">Some of our work</h3>
+			<p class="editable">We take pride in our previous work and our happy customers. We cater to any sector to boost business and increase exposure.</p>
+			<p class="editable"><a href="{{ site.baseurl }}/portfolio/">View Full Portfolio &rarr;</a></p>
+		</div>
+		<div>
+			<ul class="image-grid">
+				{% for project in site.projects limit: 4 %}
+					<li><a href="{{ site.baseurl }}{{ project.url }}"><img src="{% include relative-src.html src=project.image_path %}"></a></li>
+				{% endfor %}
+			</ul>
+		</div>
+	</div>
+</section>

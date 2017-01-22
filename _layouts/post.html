@@ -1,0 +1,33 @@
+---
+layout: page
+author:
+  display_name: Lorena Dumitrașcu
+  first_name: Lorena
+  last_name: Dumitrașcu
+---
+<section class="diagonal">
+	<div class="blog-post text-container">
+		{% include post-title.html post=page %}
+		<div class="post-content">
+			{{ content }}
+		</div>
+	</div>
+</section>
+
+<section class="diagonal alternate">
+	<div class="text-container">
+		<h3>Other Posts:</h3>
+	</div>
+	<div class="text-container halves">
+		{% if page.next %}
+		<div class="blog-post">
+			{% include next-previous.html post=page.next %}
+		</div>
+		{% endif %}
+		{% if page.previous %}
+		<div class="blog-post">
+			{% include next-previous.html post=page.previous %}
+		</div>
+		{% endif %}
+	</div>
+</section>

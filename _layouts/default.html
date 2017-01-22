@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+<style>
+{% capture include_to_scssify %}
+{% include screen.scss %}
+{% endcapture %}
+{{ include_to_scssify | scssify }}
+</style>
+{% include seo.html %}
+{% feed_meta %}
+</head>
+<body>
+	<header>
+		<div class="container">
+			<h1 class="company-name"><a href="{{ site.baseurl }}/">Lorena Dumitrașcu</a></h1>
+			{% include navigation.html %}
+		</div>
+	</header>
+	{{ content }}
+
+	<footer class="diagonal">
+		<div class="container">
+			<div class="footer-columns">
+				{% for column in site.data.footer %}
+					<ul class="footer-links">
+						<li>
+							<h2>{{ column.title }}</h2>
+						</li>
+						{% for link in column.links %}
+							<li>
+								<a {% if link.new_window %}target="_blank"{% endif %} href="{% include relative-src.html src=link.link %}" {% if link.social_icon %}class="{{ link.social_icon | slugify }}-icon"{% endif %}>
+									{% if link.social_icon %}
+										{% include social-icon.html icon=link.social_icon %}
+									{% endif %}
+
+									{{ link.name }}
+								</a>
+							</li>
+						{% endfor %}
+					</ul>
+				{% endfor %}
+
+				<ul class="footer-links">
+					<li>
+						<h2>{{ site.data.company.title }}</h2>
+					</li>
+					<li>{{ site.data.company.description }}</li>
+					<li><a href="{{ site.baseurl }}/feed.xml">{% include social-icon.html icon="RSS" %} Subscribe with RSS</a></li>
+				</ul>
+			</div>
+		</div>
+
+		<div class="legal-line">
+			<p class="container">
+				&copy; {{ site.time | date: '%Y' }} {{ site.data.company.title }}
+				&bull;
+				Template by <a href="http://cloudcannon.com/">CloudCannon</a>
+			</p>
+		</div>
+	</footer>
+
+	<script>
+		document.getElementById("open-nav").onclick = function () {
+			document.body.classList.toggle("nav-open");
+			return false;
+		};
+	</script>
+	<script src="/assets/lightbox/lightbox-plus-jquery.min.js" async></script>
+</body>
+</html>
