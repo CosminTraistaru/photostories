@@ -1,6 +1,5 @@
 $brand-color: #185d82;
 $html-background-color: #000000;
-//$html-background-color: #222;
 $secondary-brand-color: #FFC461;
 $middle-gradient-color: mix($brand-color, $secondary-brand-color, 95%);
 
@@ -13,9 +12,27 @@ $desktop: "(min-width: 768px)";
 
 $section-rotation: 3deg;
 
+
+/* latin-ext */
+@font-face {
+  font-family: 'Helvetica Neue';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Helvetica Neue'), local('HelveticaNeue'), url(https://fonts.gstatic.com/l/font?kit=Lx1xfUTR4qFjwg0Z_pb909kz8PWCvW9QOy6NPaSI5XQ&skey=4ad46dd97873f7d7&v=v8) format('woff2');
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Helvetica Neue';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Helvetica Neue'), local('HelveticaNeue'), url(https://fonts.gstatic.com/l/font?kit=Lx1xfUTR4qFjwg0Z_pb900vvcJfQgOQSx4gAglesi1Y&skey=4ad46dd97873f7d7&v=v8) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+
+
 @import "elements";
 @import "layout";
-@import "contact";
 @import "blog";
 @import "forms";
 @import "navigation";
