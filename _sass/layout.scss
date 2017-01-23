@@ -44,7 +44,7 @@ header {
 }
 
 section {
-	padding: 100px 0;
+	padding: 50px 0;
 	background: #fff;
 	margin-top: -2px;
 
@@ -59,6 +59,13 @@ section {
 			-moz-transform: skewY($section-rotation);
 			-ms-transform: skewY($section-rotation);
 			transform: skewY($section-rotation);
+		}
+
+		img.blog-header {
+			-webkit-transform: skewY(-$section-rotation);
+			-moz-transform: skewY(-$section-rotation);
+			-ms-transform: skewY(-$section-rotation);
+			transform: skewY(-$section-rotation);
 		}
 	}
 
