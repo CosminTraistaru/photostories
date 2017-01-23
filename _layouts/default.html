@@ -62,12 +62,15 @@
 		</div>
 	</footer>
 
-	<script>
-		document.getElementById("open-nav").onclick = function () {
-			document.body.classList.toggle("nav-open");
-			return false;
-		};
-	</script>
-	<script src="/assets/lightbox/lightbox-plus-jquery.min.js" async></script>
+<script>
+	document.getElementById("open-nav").onclick = function () {
+		document.body.classList.toggle("nav-open");
+		return false;
+	};
+	{% if page.images %}
+	document.querySelector("section.hero").style.backgroundImage = "url('{{ page.images[0].path }}')";
+	{% endif %}
+</script>
+<script src="/assets/lightbox/lightbox-plus-jquery.min.js" async></script>
 </body>
 </html>
