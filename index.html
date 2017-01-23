@@ -11,7 +11,7 @@ title: Lorena Dumitrașcu
 <section class="diagonal patterned">
 	<div class="container">
 		<div>
-			<h3 class="editable">Some of our work</h3>
+			<h3 class="editable">Portfolio</h3>
 			<p class="editable">We take pride in our previous work and our happy customers. We cater to any sector to boost business and increase exposure.</p>
 			<p class="editable"><a href="{{ site.baseurl }}/portfolio/">View Full Portfolio &rarr;</a></p>
 		</div>
@@ -20,6 +20,21 @@ title: Lorena Dumitrașcu
 				{% for project in site.projects limit: 4 %}
 					<li><a href="{{ site.baseurl }}{{ project.url }}"><img src="{% include relative-src.html src=project.image_path %}"></a></li>
 				{% endfor %}
+			</ul>
+		</div>
+	</div>
+</section>
+
+<section class="diagonal">
+	<div class="container">
+		<div>
+			<h3 class="editable">Latest blog posts</h3>
+		</div>
+		<div>
+			<ul class="blog-posts">
+			{% for post in site.posts limit: 4 %}
+			<li class="blog-post">{% include post-summary.html post=post read="not" %}</li>
+			{% endfor %}
 			</ul>
 		</div>
 	</div>

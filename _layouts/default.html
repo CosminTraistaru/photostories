@@ -67,8 +67,8 @@
 		document.body.classList.toggle("nav-open");
 		return false;
 	};
-	{% if page.images %}
-	document.querySelector("section.hero").style.backgroundImage = "url('{{ page.images[0].path }}')";
+	{% if page.featured %}
+	document.querySelector("section.hero").style.backgroundImage = "url('{{ page.featured.path }}')";
 	{% endif %}
 </script>
 <script src="/assets/lightbox/lightbox-plus-jquery.min.js" async></script>

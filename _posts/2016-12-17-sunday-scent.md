@@ -1,0 +1,19 @@
+---
+layout: post
+title: Sunday scent
+date: 2016-12-17 15:16:09.000000000 +02:00
+type: post
+published: true
+status: publish
+categories:
+- Portraits
+---
+Trăim in epoca în care spectacolul de suprafață este mai important decât esența. Epoca efectelor speciale. Sunt puțin revoltată( puțin= ambalaj finuț pentru mult) când văd cât de mult ne-am distanțat de naturalul și firescul uman. Percepția despre estetic, creativitatea și conectarea cu noi și cu ceilalți s-au pierdut pe drumul către o perfecțiune închipuită, inexistentă. Totodata, mă bucur enorm să întâlnesc oameni autentici, care se simt bine cu ei și transmit asta cu fiecare gest.
+Marisha e unul dintre acei oameni.
+Ziua în care am fotografia-o "o fo" tare faină ,  cu soare, râs mult, blugi cu noroi că m-am cățărat prin diverse locuri, dus filme la developat și scanat, prelucrat fotografii contrast și praf de pe film, evitat prelucrat mai mult de atât, păstrat linia naturaleții, simțit bine .
+Apoi a urmat întrebarea:
+
+Marisha ce fotografii am voie să postez?
+Da, pune-le pe toate Lore.
+
+Am reflectat când a fost ultima oara când am auzit răspunsul ăsta, mi-am dat seama că niciodata, m-am gandit la morală, am zâmbit mulțumită.

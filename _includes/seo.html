@@ -5,9 +5,9 @@
 <meta property="fb:app_id" content="{{ site.facebook.app_id }}" />
 <meta property="og:url" content="{{ page.url | prepend: site.url }}"  />
 <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}"  />
-<meta property="og:image" content="{{ page.image.location | prepend: site.url }}"  />
-<meta property="og:image:width" content="{{ page.image.width }}"  />
-<meta property="og:image:height" content="{{ page.image.height }}"  />
+<meta property="og:image" content="{{ page.featured.path | prepend: site.url }}"  />
+<meta property="og:image:width" content="{{ page.featured.width }}"  />
+<meta property="og:image:height" content="{{ page.featured.height }}"  />
 <meta property="og:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}" />
 <meta property="og:site_name" content="{{ site.title }}" />
 <meta property="fb:pages" content="{{ site.facebook.page_id }}" />
@@ -19,12 +19,11 @@
 <meta name="twitter:creator" content="@{{ site.author.twitter }}">
 <meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
 <meta name="twitter:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}" />
-<meta name="twitter:image" content="{{ page.image.location | prepend: site.url }}"  />
+<meta name="twitter:image" content="{{ page.featured.path | prepend: site.url }}"  />
 <!-- Twitter -->
 
 <!-- SEO Webmasters -->
 <meta name="google-site-verification" content="{{ site.google_site_verification }}" />
-<meta name="yandex-verification" content="{{ site.yandex_verification }}" />
 <meta name="msvalidate.01" content="{{ site.bing_verification }}" />
 <meta name="p:domain_verify" content="{{ site.pintrest_verification }}"/>
 <!-- SEO Webmasters -->
@@ -48,7 +47,7 @@
   "@type" : "Person",
   "name" : "{{ site.author.name }}",
   "url" : "{{ site.url }}",
-  "jobTitle": "Software Test Engineer",
+  "jobTitle": "Photographer",
   "email": "{{ site.email }}",
   "homeLocation": "Timișoara, Timiș, România",
   "sameAs" : [
@@ -56,16 +55,7 @@
     "{{ site.author.instagram_url }}",
     "{{ site.author.twitter_url }}"
   ],
-  "birthDate": "1987-02-23",
-  "alumniOf": {
-     "@type": "OrganizationRole",
-      "alumniOf": {
-           "@type": "CollegeOrUniversity",
-           "name": "Politehnica University of Timișoara",
-           "sameAs": "https://en.wikipedia.org/wiki/Politehnica_University_of_Timi%C8%99oara"
-      },
-      "startDate": "2011"
-  },
+  "birthDate": "1988-07-08",
   "image": {
     "@type": "ImageObject",
     "url": "{{ site.author.image.location | prepend: site.url }}",
@@ -96,9 +86,9 @@
     },
     "image": {
         "@type": "ImageObject",
-        "url": "{{ page.image.location | prepend: site.url }}",
-        "height": {{ page.image.height }},
-        "width": {{ page.image.width }}
+        "url": "{{ page.featured.path | prepend: site.url }}",
+        "height": {{ page.featured.height }},
+        "width": {{ page.featured.width }}
     },
     "headline": "{{ page.title  }}",
     "editor": "{{ site.title }}",
@@ -140,9 +130,9 @@
     },
     "image": {
         "@type": "ImageObject",
-        "url": "{{ page.image.location | prepend: site.url }}",
-        "height": {{ page.image.height }},
-        "width": {{ page.image.width }}
+        "url": "{{ page.featured.path | prepend: site.url }}",
+        "height": {{ page.featured.height }},
+        "width": {{ page.featured.width }}
     }
 }
 </script>

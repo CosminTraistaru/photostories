@@ -9,10 +9,16 @@ author:
 	<div class="blog-post text-container">
 		{% include post-title.html post=page %}
 		<div class="post-content">
-			{{ content }}
+				{{ content }}
+			{% if page.images %}
+				{% for image in page.images %}
+					{% include single-line-image.html image=image %}
+				{% endfor %}
+			{% endif %}
 		</div>
 	</div>
 </section>
+
 
 <section class="diagonal alternate">
 	<div class="text-container">
