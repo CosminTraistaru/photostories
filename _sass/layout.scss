@@ -61,12 +61,6 @@ section {
 			transform: skewY($section-rotation);
 		}
 
-		img.blog-header {
-			-webkit-transform: skewY(-$section-rotation);
-			-moz-transform: skewY(-$section-rotation);
-			-ms-transform: skewY(-$section-rotation);
-			transform: skewY(-$section-rotation);
-		}
 	}
 
 	&.hero {
