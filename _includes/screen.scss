@@ -3,7 +3,7 @@ $html-background-color: #000000;
 $secondary-brand-color: #FFC461;
 $middle-gradient-color: mix($brand-color, $secondary-brand-color, 95%);
 
-$pattern: "{{ site.baseurl }}/images/pattern.png";
+$pattern: "{{ site.baseurl }}/assets/pattern.png";
 
 // Breakpoints
 $tablet: "(min-width: 450px)";

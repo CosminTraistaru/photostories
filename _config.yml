@@ -8,14 +8,24 @@ description: Lorena Dumitrașcu Photo Stories.
 # Author details for the jekyll-seo-tag gem
 author:
   name: Lorena Dumitrașcu
-  email:
+  email: lorenadumitrascu@gmail.com
   twitter: LorenaDumitrasc # twitter username without the @ symbol
   twitter_url: https://twitter.com/LorenaDumitrasc
   facebook: Dumitrascu.Lorena
   facebook_url: https://fb.com/Dumitrascu.Lorena
   instagram: lorena_dumitrascu
   instagram_url: https://www.instagram.com/lorena_dumitrascu/
+  image:
+    location: /assets/logo-big-no-background.png
+    alt: "Logo Lorena Dumitrașcu PhotoStories"
+    width: 2187
+    height: 457
 
+logo:
+  location: /assets/logo-big-no-background.png
+  alt: "Logo Lorena Dumitrașcu PhotoStories"
+  width: 2187
+  height: 457
 # Social details for the jekyll-seo-tag gem
 social:
   name: Lorena Dumitrașcu Photo Stories

@@ -84,12 +84,14 @@
             "height": 60
         }
     },
+    {% if page.featured %}
     "image": {
         "@type": "ImageObject",
         "url": "{{ page.featured.path | prepend: site.url }}",
         "height": {{ page.featured.height }},
         "width": {{ page.featured.width }}
     },
+    {% endif %}
     "headline": "{{ page.title  }}",
     "editor": "{{ site.title }}",
     {% if page.categories %}"keywords": "{{ page.categories | join }}",{% endif %}
@@ -118,6 +120,14 @@
       "name": "{{ site.author.name }}"
    },
   "description": "{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}",
+  {% if page.featured %}
+    "image": {
+        "@type": "ImageObject",
+        "url": "{{ page.featured.path | prepend: site.url }}",
+        "height": {{ page.featured.height }},
+        "width": {{ page.featured.width }}
+    },
+    {% endif %}
   "publisher": {
     "@type": "Organization",
     "name": "{{ site.author.name }}",
@@ -127,12 +137,6 @@
         "width": 600,
         "height": 60
         }
-    },
-    "image": {
-        "@type": "ImageObject",
-        "url": "{{ page.featured.path | prepend: site.url }}",
-        "height": {{ page.featured.height }},
-        "width": {{ page.featured.width }}
     }
 }
 </script>
