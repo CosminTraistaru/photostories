@@ -1,5 +1,5 @@
 title: Lorena Dumitrașcu Photo Stories
-url: "https://lorenadumitrascu.ru"
+url: ""
 baseurl:
 
 # Default description in social shares for the jekyll-seo-tag gem
@@ -26,6 +26,13 @@ logo:
   alt: "Logo Lorena Dumitrașcu PhotoStories"
   width: 2187
   height: 457
+
+featured:
+  path: "/assets/hero_image.jpg"
+  alt: "Lorena Dumitrașcu PhotoStories"
+  height: 720
+  width: 1800
+
 # Social details for the jekyll-seo-tag gem
 social:
   name: Lorena Dumitrașcu Photo Stories
