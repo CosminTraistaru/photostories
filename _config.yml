@@ -16,19 +16,19 @@ author:
   instagram: lorena_dumitrascu
   instagram_url: https://www.instagram.com/lorena_dumitrascu/
   image:
-    location: /assets/logo-big-no-background.png
+    location: /assets/images/logo-big-no-background.png
     alt: "Logo Lorena Dumitrașcu PhotoStories"
     width: 2187
     height: 457
 
 logo:
-  location: /assets/logo-big-no-background.png
+  location: /assets/images/logo-big-no-background.png
   alt: "Logo Lorena Dumitrașcu PhotoStories"
   width: 2187
   height: 457
 
 featured:
-  path: "/assets/hero_image.jpg"
+  path: "/assets/images/hero_image.jpg"
   alt: "Lorena Dumitrașcu PhotoStories"
   height: 720
   width: 1800

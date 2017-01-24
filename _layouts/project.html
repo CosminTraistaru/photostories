@@ -6,7 +6,7 @@ layout: default
 <section class="hero diagonal">
 	<div class="container">
 		{% if portfolio.heading %}
-		<h2><a href="{{ site.baseurl }}/portfolio/">{{ portfolio.heading }}</a> / {{ page.title | capitalize }}</h2>
+		<h2>{{ page.title | capitalize }}</h2>
 		{% endif %}
 		{% if page.subtitle %}
 			<p class="subtext">{{ page.subtitle }}</p>
@@ -19,7 +19,11 @@ layout: default
 		<p><img src="{% include relative-src.html src=page.image_path %}"></p>
 		<div>
 			{{ content }}
+			{% if page.images %}
+				{% for image in page.images %}
+					{% include single-line-image.html image=image %}
+				{% endfor %}
+			{% endif %}
 		</div>
-		<p><a href="{{ page.external_url }}">View {{ page.title }} &rarr;</a></p>
 	</div>
 </section>

@@ -9,12 +9,15 @@ author:
 	<div class="blog-post text-container">
 		{% include post-title.html post=page %}
 		<div class="post-content">
-				{{ content }}
+			{{ content }}
 			{% if page.images %}
 				{% for image in page.images %}
 					{% include single-line-image.html image=image %}
 				{% endfor %}
 			{% endif %}
+		<iframe src="https://www.facebook.com/plugins/like.php?href={{ page.url | prepend: site.url }}&width=63&layout=box_count&action=like&size=large&show_faces=true&share=true&height=65&appId={{ site.facebook.app_id }}" width="63" height="65" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+		<iframe src="https://www.facebook.com/plugins/follow.php?href=https%3A%2F%2Fwww.facebook.com%2FLorenaDumitrascuPhotography%2F&width=78&height=65&layout=box_count&size=large&show_faces=true&appId={{ site.facebook.app_id }}" width="78" height="65" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+		<p></p>
 		</div>
 	</div>
 </section>

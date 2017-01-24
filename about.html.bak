@@ -1,6 +1,24 @@
 ---
 title: About photographer
 subtitle: Lorena Dumitrașcu
+featured:
+  path: "/assets/images/about-1.jpg"
+  alt: "Lorena Dumitrașcu PhotoStories"
+  height: 720
+  width: 1800
+images:
+- path: "/assets/images/about-1.jpg"
+  alt: "Lorena Dumitrașcu PhotoStories"
+  height: 720
+  width: 1800
+- path: "/assets/images/about-2.jpg"
+  alt: "Lorena Dumitrașcu PhotoStories"
+  height: 720
+  width: 1800
+- path: "/assets/images/about-3.jpg"
+  alt: "Lorena Dumitrașcu PhotoStories"
+  height: 720
+  width: 1800
 ---
 <section class="diagonal patterned">
 	<div class="container">
