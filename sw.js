@@ -1,5 +1,6 @@
 importScripts('/assets/sw/sw-toolbox.js');
 
+
 const config = {
   offlinePage: '/404.html'
 };
