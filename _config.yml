@@ -24,14 +24,14 @@ author:
 logo:
   location: /assets/images/logo-big-no-background.png
   alt: "Logo Lorena Dumitrașcu PhotoStories"
-  width: 2187
-  height: 457
+  width: 1300
+  height: 272
 
 featured:
   path: "/assets/images/hero_image.jpg"
   alt: "Lorena Dumitrașcu PhotoStories"
-  height: 720
-  width: 1800
+  height: 520
+  width: 1300
 
 # Social details for the jekyll-seo-tag gem
 social:
