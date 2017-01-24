@@ -15,10 +15,7 @@ author:
 					{% include single-line-image.html image=image %}
 				{% endfor %}
 			{% endif %}
-			<iframe src="https://www.facebook.com/plugins/like.php?href={{ page.url | prepend: site.url }}&width=63&layout=box_count&action=like&size=large&show_faces=true&height=65&appId={{ site.facebook.app_id }}" width="63" height="65" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
-			<iframe src="https://www.facebook.com/plugins/share_button.php?href={{ page.url | prepend: site.url }}&layout=box_count&size=large&mobile_iframe=true&appId={{ site.facebook.app_id }}&width=78&height=65" width="73" height="65" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
-			<iframe src="https://www.facebook.com/plugins/follow.php?href=https%3A%2F%2Fwww.facebook.com%2FLorenaDumitrascuPhotography%2F&width=78&height=65&layout=box_count&size=large&show_faces=true&appId={{ site.facebook.app_id }}" width="78" height="65" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
-		<p></p>
+			{% include facebook-sharing.html %}
 		</div>
 	</div>
 </section>
