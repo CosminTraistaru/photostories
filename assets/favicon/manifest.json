@@ -1,5 +1,6 @@
 {
-    "name": "Lorena Dumitra\u0219cu",
+    "name": "{{ site.title }}",
+    "short_name": "Lorena Photo",
     "icons": [
         {
             "src": "/assets/favicon/android-chrome-192x192.png",
@@ -14,6 +15,6 @@
     ],
     "theme_color": "#185d82",
     "background_color": "#185d82",
-    "start_url": "https://lorenadumitrascu.ro",
+    "start_url": "{{ site.url }}",
     "display": "standalone"
 }

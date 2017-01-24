@@ -31,7 +31,7 @@
 						</li>
 						{% for link in column.links %}
 							<li>
-								<a {% if link.new_window %}target="_blank"{% endif %} href="{% include relative-src.html src=link.link %}" {% if link.social_icon %}class="{{ link.social_icon | slugify }}-icon"{% endif %}>
+								<a {% if link.new_window %}target="_blank"{% endif %} href="{% include relative-src.html src=link.link %}" {% if link.social_icon %}class="{{ link.social_icon | slugify }}-icon"{% endif %} rel="noopener">
 									{% if link.social_icon %}
 										{% include social-icon.html icon=link.social_icon %}
 									{% endif %}
@@ -57,12 +57,13 @@
 			<p class="container">
 				&copy; {{ site.time | date: '%Y' }} {{ site.data.company.title }}
 				&bull;
-				Template by <a href="http://cloudcannon.com/">CloudCannon</a>
+				<a href="https://jekyllrb.com/" rel="noopener">Jekyll</a> Template by <a href="http://cloudcannon.com/" rel="noopener">CloudCannon</a>
 			</p>
 		</div>
 	</footer>
 
 	<script>
+		// Service worker start
 if('serviceWorker' in navigator) {
   navigator.serviceWorker.register('/sw.js', { scope: '/' })
     .then(function(registration) {
@@ -72,15 +73,22 @@ if('serviceWorker' in navigator) {
      console.log('Service Worker Ready');
   });
 }
+		// Service worker end
 
+		// Menu open start
 document.getElementById("open-nav").onclick = function () {
 	document.body.classList.toggle("nav-open");
 	return false;
 };
+		// Menu open end
+
+		// Header image chage start
 {% if page.featured %}
 document.querySelector("section.hero").style.backgroundImage = "url('{{ page.featured.path }}')";
 {% endif %}
+		//Header image end
 
+		//Google Analytics start
 (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
 m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
@@ -88,9 +96,8 @@ m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
 
 ga('create', 'UA-3090430-14', 'auto');
 ga('send', 'pageview');
-
+// Google Analytics end
 </script>
 <script src="/assets/lightbox/lightbox-plus-jquery.min.js" async></script>
-<!--<script src="/assets/sw/install.js" async></script>-->
 </body>
 </html>
