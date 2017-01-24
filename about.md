@@ -10,16 +10,16 @@ featured:
 images:
 - path: "/assets/images/about-1.jpg"
   alt: "Lorena Dumitrașcu PhotoStories"
-  height: 720
-  width: 1800
+  height: 640
+  width: 960
 - path: "/assets/images/about-2.jpg"
   alt: "Lorena Dumitrașcu PhotoStories"
-  height: 720
-  width: 1800
+  height: 568
+  width: 858
 - path: "/assets/images/about-3.jpg"
   alt: "Lorena Dumitrașcu PhotoStories"
-  height: 720
-  width: 1800
+  height: 403
+  width: 604
 ---
 
 Incercam sa explic cuiva cine sunt. Cine e Lorena Dumitrascu. Am sa restrang multitudinea de raspunsuri la doua : “pai, e aia care iubeste sa faca poze si sa danseze”. Si-a gasit esenta.
