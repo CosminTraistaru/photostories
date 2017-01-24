@@ -1,15 +1,14 @@
 <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
 <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 <link rel="canonical" href="{{ page.url | prepend: site.url }}" />
+{% if page.featured %}{% assign image = page.featured %}{% else %}{% assign image = site.featured %}{% endif %}
 <!-- Facebook -->
 <meta property="fb:app_id" content="{{ site.facebook.app_id }}" />
 <meta property="og:url" content="{{ page.url | prepend: site.url }}"  />
 <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}"  />
-{% if page.featured %}{{ assign image = page.featured }}{% else %}{{ assign image == site.featured }}
 <meta property="og:image" content="{{ image.path | prepend: site.url }}"  />
 <meta property="og:image:width" content="{{ image.width }}"  />
 <meta property="og:image:height" content="{{ image.height }}"  />
-{% endif %}
 <meta property="og:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}" />
 <meta property="og:site_name" content="{{ site.title }}" />
 <meta property="fb:pages" content="{{ site.facebook.page_id }}" />
@@ -21,7 +20,7 @@
 <meta name="twitter:creator" content="@{{ site.author.twitter }}">
 <meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
 <meta name="twitter:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}" />
-<meta name="twitter:image" content="{{ page.featured.path | prepend: site.url }}"  />
+<meta name="twitter:image" content="{{ image.path | prepend: site.url }}"  />
 <!-- Twitter -->
 
 <!-- SEO Webmasters -->
@@ -86,14 +85,12 @@
             "height": 60
         }
     },
-    {% if page.featured %}
     "image": {
         "@type": "ImageObject",
-        "url": "{{ page.featured.path | prepend: site.url }}",
-        "height": {{ page.featured.height }},
-        "width": {{ page.featured.width }}
+        "url": "{{ image.path | prepend: site.url }}",
+        "height": {{ image.height }},
+        "width": {{ image.width }}
     },
-    {% endif %}
     "headline": "{{ page.title  }}",
     "editor": "{{ site.title }}",
     {% if page.categories %}"keywords": "{{ page.categories | join }}",{% endif %}
@@ -122,14 +119,12 @@
       "name": "{{ site.author.name }}"
    },
   "description": "{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}",
-  {% if page.featured %}
     "image": {
         "@type": "ImageObject",
-        "url": "{{ page.featured.path | prepend: site.url }}",
-        "height": {{ page.featured.height }},
-        "width": {{ page.featured.width }}
+        "url": "{{ image.path | prepend: site.url }}",
+        "height": {{ image.height }},
+        "width": {{ image.width }}
     },
-    {% endif %}
   "publisher": {
     "@type": "Organization",
     "name": "{{ site.author.name }}",
