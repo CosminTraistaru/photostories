@@ -7,6 +7,81 @@ published: true
 status: publish
 categories:
 - Weddings
+youtube: TFjmvfRvjTc
+featured:
+  path: /assets/images/2016/ada-raul/ada-header.jpg
+  alt: "Ada Raul Wedding August 2016"
+  width: 1200
+  height: 624
+images:
+- path: /assets/images/2016/ada-raul/R1-02-min.jpg
+  alt: "Ada Raul Wedding August 2016"
+  width: 803
+  height: 1200
+- path: /assets/images/2016/ada-raul/R1-05-min.jpg
+  alt: "Ada Raul Wedding August 2016"
+  width: 803
+  height: 1200
+- path: /assets/images/2016/ada-raul/R1-04-min.jpg
+  alt: "Ada Raul Wedding August 2016 - Kenny"
+  width: 1200
+  height: 803
+- path: /assets/images/2016/ada-raul/R1-06-min.jpg
+  alt: "Ada Raul Wedding August 2016 - Kenny"
+  width: 803
+  height: 1200
+- path: /assets/images/2016/ada-raul/R1-08-min.jpg
+  alt: "Ada Raul Wedding August 2016"
+  width: 1200
+  height: 803
+- path: /assets/images/2016/ada-raul/R1-09-min.jpg
+  alt: "Ada Raul Wedding August 2016 rose"
+  width: 1200
+  height: 803
+- path: /assets/images/2016/ada-raul/R1-10-min.jpg
+  alt: "Ada Raul Wedding August 2016"
+  width: 992
+  height: 1200
+- path: /assets/images/2016/ada-raul/R1-11-min.jpg
+  alt: "Ada Raul Wedding August 2016"
+  width: 803
+  height: 1200
+- path: /assets/images/2016/ada-raul/R1-13-min.jpg
+  alt: "Ada Raul Wedding August 2016"
+  width: 1200
+  height: 803
+- path: /assets/images/2016/ada-raul/R1-19-min.jpg
+  alt: "Ada Raul Wedding August 2016"
+  width: 1200
+  height: 803
+- path: /assets/images/2016/ada-raul/R1-24-min.jpg
+  alt: "Ada Raul Wedding August 2016"
+  width: 1200
+  height: 803
+- path: /assets/images/2016/ada-raul/R1-26-min.jpg
+  alt: "Ada Raul Wedding August 2016"
+  width: 803
+  height: 1200
+- path: /assets/images/2016/ada-raul/R1-29-min.jpg
+  alt: "Ada Raul Wedding August 2016"
+  width: 803
+  height: 1200
+- path: /assets/images/2016/ada-raul/R1-30-min.jpg
+  alt: "Ada Raul Wedding August 2016"
+  width: 1200
+  height: 803
+- path: /assets/images/2016/ada-raul/R1-33-min.jpg
+  alt: "Ada Raul Wedding August 2016"
+  width: 998
+  height: 1200
+- path: /assets/images/2016/ada-raul/R1-35-min.jpg
+  alt: "Ada Raul Wedding August 2016"
+  width: 803
+  height: 1200
+- path: /assets/images/2016/ada-raul/R1-36-min.jpg
+  alt: "Ada Raul Wedding August 2016"
+  width: 803
+  height: 1200
 ---
-[gallery columns="1" size="large" ids="693,676,678,683,677,679,680,681,685,684,686,687,688,689,691,690,692"]
-https://www.youtube.com/watch?v=TFjmvfRvjTc
+
+

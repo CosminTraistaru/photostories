@@ -7,7 +7,23 @@ published: true
 status: publish
 categories:
 - Portraits
+featured:
+  path: /assets/images/2016/no-tomorrow/r1-05.jpg
+  alt: "Andreea Buciuman"
+  width: 1200
+  height: 803
+images:
+- path: /assets/images/2016/no-tomorrow/r1-04.jpg
+  alt: "Andreea Buciuman"
+  width: 1200
+  height: 803
+- path: /assets/images/2016/no-tomorrow/r1-05.jpg
+  alt: "Andreea Buciuman"
+  width: 1200
+  height: 803
+- path: /assets/images/2016/no-tomorrow/r1-02.jpg
+  alt: "Andreea Buciuman"
+  width: 1200
+  height: 803
+
 ---
-
-[gallery size="large" columns="1" ids="699,700,698"]
-

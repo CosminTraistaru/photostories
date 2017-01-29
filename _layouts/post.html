@@ -15,6 +15,9 @@ author:
 					{% include single-line-image.html image=image %}
 				{% endfor %}
 			{% endif %}
+			{% if page.youtube %}
+				<iframe width="100%" height="400px" src="https://www.youtube.com/embed/{{ page.youtube }}" frameborder="0" allowfullscreen></iframe>
+			{% endif %}
 			{% include facebook-sharing.html %}
 		</div>
 	</div>
