@@ -2,12 +2,14 @@ importScripts('/assets/sw/sw-toolbox.js');
 
 
 const config = {
-  offlinePage: '/404.html'
+  offlinePage: '/offline.html'
 };
 
 config.filesToCache = [
     '/',
     config.offlinePage,
+    '/offline.html',
+    '/404.html',
     '/index.html',
     '/blog/index.html',
     '/assets/images/hero_image.jpg',
