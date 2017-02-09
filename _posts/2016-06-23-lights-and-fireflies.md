@@ -2,6 +2,22 @@
 layout: post
 title: Lights and FireFlies
 date: 2016-06-23 16:35:37.000000000 +03:00
+permalink: /2016/06/23/lights-and-fireflies/
+featured:
+  path: /assets/uploads/LightsandFireFlies-colaj-cos-2.jpg
+  alt: Lights and FireFlies
+images:
+- path: /assets/uploads/LightsandFireFlies-colaj-cos-2.jpg
+  alt: Lights and FireFlies
+- path: /assets/uploads/LightsandFireFlies-colaj-cos-3.jpg
+  alt: Lights and FireFlies
+- path: /assets/uploads/LightsandFireFlies-R1-30.jpg
+  alt: Lights and FireFlies
+- path: /assets/uploads/LightsandFireFlies-R1-35.jpg
+  alt: Lights and FireFlies
+- path: /assets/uploads/LightsandFireFlies-R1-25.jpg
+  alt: Lights and FireFlies
+youtube: 4LVfvEi2Djc
 type: post
 published: true
 status: publish
@@ -16,6 +32,3 @@ And I lie
 If I don't feel so right
 But the world looks better
 Through your eyes."
-&nbsp;
-[gallery columns="1" size="large" ids="625,626,628,629,627"]
-[embed]https://www.youtube.com/watch?v=4LVfvEi2Djc[/embed]

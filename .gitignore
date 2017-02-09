@@ -4,3 +4,4 @@ _site/
 .idea/
 .env
 .env2
+.DS_Store
