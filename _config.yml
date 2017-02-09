@@ -57,6 +57,8 @@ gems:
   - "jekyll-feed"
   - "jekyll-paginate"
   - "jekyll-archives"
+  - "jekyll-sitemap"
+
 
 defaults:
   - scope:

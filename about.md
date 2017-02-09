@@ -2,6 +2,7 @@
 layout: project
 title: About photographer
 subtitle: Lorena Dumitrașcu
+permalink: /about/
 featured:
   path: "/assets/images/about-3.jpg"
   alt: "Lorena Dumitrașcu PhotoStories"
