@@ -88,8 +88,12 @@
     "image": {
         "@type": "ImageObject",
         "url": "{{ image.path | prepend: site.url }}",
-        "height": {{ image.height }},
+        {% image.height %}
+            "height": {{ image.height }},
+        {% endif %}
+        {% image.width %}
         "width": {{ image.width }}
+        {% endif %}
     },
     "headline": "{{ page.title  }}",
     "editor": "{{ site.title }}",
