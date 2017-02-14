@@ -9,7 +9,7 @@
 <meta property="og:image" content="{{ image.path | prepend: site.url }}"  />
 {% if image.width %}<meta property="og:image:width" content="{{ image.width }}"  />{% endif %}
 {% if image.height %}<meta property="og:image:height" content="{{ image.height }}"  />{% endif %}
-<meta property="og:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ page.title }}{% endif %}" />
+<meta property="og:description" content="{{ page.title }}" />
 <meta property="og:site_name" content="{{ site.title }}" />
 <meta property="fb:pages" content="{{ site.facebook.page_id }}" />
 <!-- Facebook -->
@@ -19,7 +19,7 @@
 <meta name="twitter:site" content="@{{ site.author.twitter }}">
 <meta name="twitter:creator" content="@{{ site.author.twitter }}">
 <meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
-<meta name="twitter:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ page.title }}{% endif %}" />
+<meta name="twitter:description" content="{{ page.title }}" />
 <meta name="twitter:image" content="{{ image.path | prepend: site.url }}"  />
 <!-- Twitter -->
 
@@ -88,12 +88,8 @@
     "image": {
         "@type": "ImageObject",
         "url": "{{ image.path | prepend: site.url }}",
-        {% if image.height %}
-            "height": {{ image.height }},
-        {% endif %}
-        {% if image.width %}
-        "width": {{ image.width }}
-        {% endif %}
+        {% if image.height %}"height": {{ image.height }},{% endif %}
+        {% if image.width %}"width": {{ image.width }}{% endif %}
     },
     "headline": "{{ page.title  }}",
     "editor": "{{ site.title }}",
