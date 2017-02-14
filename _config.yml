@@ -1,5 +1,5 @@
 title: Lorena Dumitrașcu Photo Stories
-url: "https://lorena.traista.ru"
+url: "https://www.lorenadumitrascu.ro"
 baseurl:
 
 # Default description in social shares for the jekyll-seo-tag gem
@@ -38,7 +38,7 @@ social:
   name: Lorena Dumitrașcu Photo Stories
   links:
     - https://twitter.com/LorenaDumitrasc
-    - https://fb.com/Dumitrascu.Lorena
+    - https://www.facebook.com/LorenaDumitrascuPhotoStories/
     - https://www.instagram.com/lorena_dumitrascu/
 
 collections:
