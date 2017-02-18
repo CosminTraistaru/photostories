@@ -6,7 +6,11 @@
 }
 
 .text-container {
-	max-width: 640px;
+	max-width: 1200px;
+
+	@media #{$desktop} {
+		max-width: 640px;
+	}
 }
 
 .container {
@@ -65,8 +69,8 @@ section {
 
 	&.hero {
 		color: #ffffff;
-		background: url(/assets/images/hero_image.jpg) no-repeat, $brand-color;
-		background-size: cover;
+		background: url(/assets/images/hero_image.jpg) no-repeat center, $brand-color;
+		//background-size: inherit;
 		text-align: left;
 		margin-top: 80px;
 		padding-top: 250px;
@@ -93,13 +97,6 @@ section {
 	&.alternate {
 		background: #eee;
 	}
-}
-
-.sitetitle + h2 {
-	-webkit-transform: skewY(-$section-rotation);
-	-moz-transform: skewY(-$section-rotation);
-	-ms-transform: skewY(-$section-rotation);
-	transform: skewY(-$section-rotation);
 }
 
 .button {
@@ -163,21 +160,23 @@ section {
 	li {
 		padding: 0;
 		box-sizing: border-box;
-		width: 70%;
+		width: 95%;
 		position: relative;
 		overflow: hidden;
 		margin: 20px;
 		border-radius: 5px;
-		text-align: left;
+		text-align: center;
 		border: 1px solid $brand-color;
 		line-height: 0;
 
 		@media #{$tablet} {
 			flex: 1 1 50%;
+			width: 80%;
 		}
 
 		@media #{$desktop} {
 			flex: 1 1 30%;
+			width: 70%;
 		}
 
 		img {
