@@ -9,10 +9,10 @@ categories:
 - Weddings
 youtube: TFjmvfRvjTc
 featured:
-  path: /assets/images/2016/ada-raul/ada-header.jpg
-  alt: "Ada Raul Wedding August 2016"
-  width: 1200
-  height: 624
+  path: /assets/images/2016/ada-raul/R1-06-min.jpg
+  alt: "Ada Raul Wedding August 2016 - Kenny"
+  width: 803
+  height: 1200
 images:
 - path: /assets/images/2016/ada-raul/R1-02-min.jpg
   alt: "Ada Raul Wedding August 2016"

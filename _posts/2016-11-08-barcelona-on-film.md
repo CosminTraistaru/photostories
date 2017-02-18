@@ -8,10 +8,10 @@ status: publish
 categories:
 - Places
 featured:
-  path: "/assets/images/2016/barcelona/carousel-header.jpg"
-  alt: "Barcelona - Carrousel"
+  path: "/assets/images/2016/barcelona/r1-00.jpg"
+  alt: "Barcelona - Diafilm - Carrousel"
   width: 1200
-  height: 377
+  height: 1793
 images:
 - path: "/assets/images/2016/barcelona/carrousel.jpg"
   alt: "Barcelona - Carrousel"
