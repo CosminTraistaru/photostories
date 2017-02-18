@@ -16,7 +16,7 @@ subtitle: Keep up with the latest news.
 {% if paginator.total_pages > 1 %}
 	<section class="diagonal alternate">
 		<!-- Pagination links -->
-		<div class="pagination">
+		<div class="pagination diagonal">
 			{% if paginator.previous_page %}
 				<a href="{{ site.baseurl }}{{ paginator.previous_page_path }}" class="previous btn">&larr; Newer posts</a>
 			{% endif %}

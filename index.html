@@ -3,7 +3,7 @@ title: Lorena Dumitrașcu
 ---
 
 <section class="hero diagonal">
-	<div class="container">
+	<div class="container sitetitle">
 		<h2 class="editable">Lorena Dumitrașcu</h2>
 	</div>
 </section>
@@ -16,11 +16,11 @@ title: Lorena Dumitrașcu
 			<p class="editable"><a href="{{ site.baseurl }}/portfolio/">View Full Portfolio &rarr;</a></p>
 		</div>
 		<div>
+			{% for project in site.projects limit: 4 %}
 			<ul class="image-grid">
-				{% for project in site.projects limit: 4 %}
 					<li><a href="{{ site.baseurl }}{{ project.url }}"><img src="{% include relative-src.html src=project.image_path %}"></a></li>
-				{% endfor %}
 			</ul>
+			{% endfor %}
 		</div>
 	</div>
 </section>

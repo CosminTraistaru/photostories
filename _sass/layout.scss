@@ -95,6 +95,13 @@ section {
 	}
 }
 
+.sitetitle + h2 {
+	-webkit-transform: skewY(-$section-rotation);
+	-moz-transform: skewY(-$section-rotation);
+	-ms-transform: skewY(-$section-rotation);
+	transform: skewY(-$section-rotation);
+}
+
 .button {
 	padding: 13px 38px;
 	border-radius: 3px;

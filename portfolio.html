@@ -6,8 +6,8 @@ subtitle: See some of my projects.
 
 <section class="diagonal patterned">
 	<div class="container">
+		{% for project in site.projects %}
 		<ul class="image-grid">
-			{% for project in site.projects %}
 				<li>
 					<a href="{{ site.baseurl }}{{ project.url }}">
 						<img src="{% include relative-src.html src=project.image_path %}" alt="{{ person.name }}">
@@ -17,9 +17,7 @@ subtitle: See some of my projects.
 						</div>
 					</a>
 				</li>
-			{% endfor %}
-			<li class="filler"></li>
-			<li class="filler"></li>
 		</ul>
+		{% endfor %}
 	</div>
 </section>
