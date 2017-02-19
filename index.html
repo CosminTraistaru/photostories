@@ -18,7 +18,7 @@ title: Lorena Dumitrașcu
 		<div>
 			{% for project in site.projects limit: 4 %}
 			<ul class="image-grid">
-					<li><a href="{{ site.baseurl }}{{ project.url }}"><img src="{% include relative-src.html src=project.image_path %}"></a></li>
+					<li><a href="{{ site.baseurl }}{{ project.url }}"><img src="{% include relative-src.html src=project.featured.path %}"></a></li>
 			</ul>
 			{% endfor %}
 		</div>
