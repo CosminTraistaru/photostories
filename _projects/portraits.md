@@ -15,8 +15,6 @@ images:
   alt: Portraits
 - path: /assets/images/portfolio/portraits/R1-09.jpg
   alt: Portraits
-- path: /assets/images/portfolio/portraits/R1-14.jpg
-  alt: Portraits
 - path: /assets/images/portfolio/portraits/R1-25.jpg
   alt: Portraits
 - path: /assets/images/portfolio/portraits/R1-049.jpg
