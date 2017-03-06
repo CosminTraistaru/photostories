@@ -26,5 +26,4 @@ images:
   alt: "Andreea Buciuman"
   width: 1200
   height: 803
-
 ---

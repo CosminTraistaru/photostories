@@ -17,7 +17,7 @@ A collection of stories. This is how I see the world around me. Different, Movin
 			<p class="editable"><a href="{{ site.baseurl }}/portfolio/">View Full Portfolio &rarr;</a></p>
 		</div>
 		<div>
-			{% for project in site.projects limit: 4 %}
+			{% for project in site.projects limit: 5 %}
 			<ul class="image-grid">
 					<li>
 						<a href="{{ site.baseurl }}{{ project.url }}">
@@ -40,7 +40,7 @@ A collection of stories. This is how I see the world around me. Different, Movin
 		</div>
 		<div>
 			<ul class="blog-posts">
-			{% for post in site.posts limit: 4 %}
+			{% for post in site.posts limit: 5 %}
 			<li class="blog-post">{% include post-summary.html post=post read="not" %}</li>
 			{% endfor %}
 			</ul>
