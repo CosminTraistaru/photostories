@@ -5,6 +5,7 @@ date: 2016-08-04 15:14:51.000000000 +03:00
 type: post
 published: true
 status: publish
+permalink: /2016/08/04/story-amazing-wedding-ada-raul/
 categories:
 - Weddings
 youtube: TFjmvfRvjTc
