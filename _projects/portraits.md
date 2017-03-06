@@ -2,7 +2,7 @@
 name: Portraits 
 subtitle:
 featured:
-  path: /assets/images/portfolio/Portraits/R1-25.jpg
+  path: /assets/images/portfolio/portraits/R1-25.jpg
   alt: Portraits
   width: 1200
   height: 803
