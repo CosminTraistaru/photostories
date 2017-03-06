@@ -5,6 +5,7 @@ date: 2016-12-17 15:16:09.000000000 +02:00
 type: post
 published: true
 status: publish
+permalink: /2016/12/17/sunday-scent/
 categories:
 - Portraits
 featured:

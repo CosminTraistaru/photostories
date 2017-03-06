@@ -5,6 +5,7 @@ date: 2016-11-08 12:11:57.000000000 +02:00
 type: post
 published: true
 status: publish
+permalink: /2016/11/08/barcelona-on-film/
 categories:
 - Places
 featured:

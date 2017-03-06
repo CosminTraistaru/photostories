@@ -5,6 +5,7 @@ date: 2016-08-08 13:59:00.000000000 +03:00
 type: post
 published: true
 status: publish
+permalink: /2016/08/08/theres-no-tomorrow-is-only-today/
 categories:
 - Portraits
 featured:
