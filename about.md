@@ -1,7 +1,7 @@
 ---
 layout: project
-title: About photographer
-subtitle: Lorena Dumitrașcu
+title:
+subtitle:
 permalink: /about/
 featured:
   path: "/assets/images/about-3.jpg"
