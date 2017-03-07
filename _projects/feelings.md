@@ -9,6 +9,8 @@ featured:
 images:
 - path: /assets/images/portfolio/feelings/R1-14.jpg
   alt: Feelings
+- path: /assets/images/portfolio/feelings/R1-11.jpg
+  alt: Feelings
 - path: /assets/images/portfolio/feelings/R1-00.jpg
   alt: Feelings
 - path: /assets/images/portfolio/feelings/R1-06.jpg
@@ -21,10 +23,9 @@ images:
   alt: Feelings
 - path: /assets/images/portfolio/feelings/R1-36.jpg
   alt: Feelings
-- path: /assets/images/portfolio/feelings/R1-11.jpg
-  alt: Feelings
 - path: /assets/images/portfolio/feelings/R1-04.jpg
   alt: Feelings
 - path: /assets/images/portfolio/feelings/R1-08-1.jpg
   alt: Feelings
+location: 2
 ---

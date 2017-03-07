@@ -4,7 +4,7 @@ title: Lorena Dumitrașcu
 
 <section class="hero diagonal">
 	<div class="container sitetitle">
-		<h2 class="editable">Lorena Dumitrașcu</h2>
+		<h2 class="editable">A collection of stories.</h2>
 	</div>
 </section>
 
@@ -17,8 +17,9 @@ A collection of stories. This is how I see the world around me. Different, Movin
 			<p class="editable"><a href="{{ site.baseurl }}/portfolio/">View Full Portfolio &rarr;</a></p>
 		</div>
 		<div>
-			{% for project in site.projects limit: 5 %}
 			<ul class="image-grid">
+			{% assign sorted = (site.projects | sort: 'location') %}
+			{% for project in sorted limit: 6 %}
 					<li>
 						<a href="{{ site.baseurl }}{{ project.url }}">
 							<img src="{% include relative-src.html src=project.featured.path %}">
@@ -27,23 +28,23 @@ A collection of stories. This is how I see the world around me. Different, Movin
 							</div>
 						</a>
 					</li>
-			</ul>
 			{% endfor %}
+			</ul>
 		</div>
 	</div>
 </section>
 
-<section class="diagonal">
-	<div class="container">
-		<div>
-			<h3 class="editable">Latest blog posts</h3>
-		</div>
-		<div>
-			<ul class="blog-posts">
-			{% for post in site.posts limit: 5 %}
-			<li class="blog-post">{% include post-summary.html post=post read="not" %}</li>
-			{% endfor %}
-			</ul>
-		</div>
-	</div>
-</section>
+<!--<section class="diagonal">-->
+	<!--<div class="text-container">-->
+		<!--<div>-->
+			<!--<h3 class="editable">Latest blog posts</h3>-->
+		<!--</div>-->
+		<!--<div>-->
+			<!--<ul class="blog-posts">-->
+			<!--{% for post in site.posts limit: 4 %}-->
+			<!--<li class="blog-post">{% include post-summary.html post=post read="not" %}</li>-->
+			<!--{% endfor %}-->
+			<!--</ul>-->
+		<!--</div>-->
+	<!--</div>-->
+<!--</section>-->

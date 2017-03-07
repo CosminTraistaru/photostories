@@ -26,10 +26,6 @@ images:
   alt: "Sunday scent - Marisha"
   width: 1200
   height: 1794
-- path: "/assets/images/2016/sunday-scent/R1-10-min.jpg"
-  alt: "Sunday scent - Marisha"
-  width: 1200
-  height: 813
 - path: "/assets/images/2016/sunday-scent/R1-12-min.jpg"
   alt: "Sunday scent - Marisha"
   width: 1200
@@ -46,10 +42,6 @@ images:
   alt: "Sunday scent - Marisha"
   width: 1200
   height: 1794
-- path: "/assets/images/2016/sunday-scent/R1-17-min.jpg"
-  alt: "Sunday scent - Marisha"
-  width: 1200
-  height: 803
 - path: "/assets/images/2016/sunday-scent/R1-18-min.jpg"
   alt: "Sunday scent - Marisha"
   width: 1200
@@ -75,6 +67,14 @@ images:
   width: 1200
   height: 1794
 - path: "/assets/images/2016/sunday-scent/R1-32-min.jpg"
+  alt: "Sunday scent - Marisha"
+  width: 1200
+  height: 803
+- path: "/assets/images/2016/sunday-scent/R1-10-min.jpg"
+  alt: "Sunday scent - Marisha"
+  width: 1200
+  height: 813
+- path: "/assets/images/2016/sunday-scent/R1-17-min.jpg"
   alt: "Sunday scent - Marisha"
   width: 1200
   height: 803

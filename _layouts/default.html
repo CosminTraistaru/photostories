@@ -87,6 +87,8 @@ document.getElementById("open-nav").onclick = function () {
 </script>
 {% endif %}
 <script async defer src="/assets/lightbox/lightbox-plus-jquery.min.js"></script>
+{% if jekyll.environment == 'production' %}
 <script async defer type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-58a9ace099c35160"></script>
+{% endif %}
 </body>
 </html>

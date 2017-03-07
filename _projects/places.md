@@ -23,10 +23,11 @@ images:
   alt: Places
 - path: /assets/images/portfolio/places/R1-32.jpg
   alt: Places
-- path: /assets/images/portfolio/places/R1-00.jpg
-  alt: Places
 - path: /assets/images/portfolio/places/R1-10.jpg
   alt: Places
 - path: /assets/images/portfolio/places/R1-29.jpg
   alt: Places
+- path: /assets/images/portfolio/places/R1-00.jpg
+  alt: Places
+location: 6
 ---

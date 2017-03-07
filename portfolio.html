@@ -6,8 +6,9 @@ subtitle: A collection of stories. This is how I see the world around me differe
 
 <section class="diagonal patterned">
 	<div class="container">
-		{% for project in site.projects %}
 		<ul class="image-grid">
+			{% assign sorted = (site.projects | sort: 'location') %}
+			{% for project in sorted %}
 				<li>
 					<a href="{{ site.baseurl }}{{ project.url }}">
 						<img src="{% include relative-src.html src=project.featured.path %}" alt="{{ person.name }}">
@@ -17,7 +18,7 @@ subtitle: A collection of stories. This is how I see the world around me differe
 						</div>
 					</a>
 				</li>
+			{% endfor %}
 		</ul>
-		{% endfor %}
 	</div>
 </section>

@@ -122,8 +122,8 @@
     "image": {
         "@type": "ImageObject",
         "url": "{{ image.path | prepend: site.url }}",
-        "height": {{ image.height }},
-        "width": {{ image.width }}
+        {% if image.height %}"height": {{ image.height }},{% endif %}
+        {% if image.width %}"width": {{ image.width }}{% endif %}
     },
   "publisher": {
     "@type": "Organization",
@@ -137,4 +137,39 @@
     }
 }
 </script>
+{% endif %}
+
+{% if page.images %}
+{% for image in page.images %}
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Photograph",
+  "url": "{{ page.url | prepend: site.url  }}",
+  {% if image.alt %}
+  "name": " {{ image.alt }}",
+  {% endif %}
+  "author": {
+      "@type": "Person",
+      "name": "{{ site.author.name }}"
+   },
+   "image": {
+        "@type": "ImageObject",
+        "url": "{{ image.path | prepend: site.url }}",
+        {% if image.height %}"height": {{ image.height }},{% endif %}
+        {% if image.width %}"width": {{ image.width }}{% endif %}
+    },
+  "publisher": {
+    "@type": "Organization",
+    "name": "{{ site.author.name }}",
+    "logo": {
+        "@type": "ImageObject",
+        "url": "{{ site.logo.location | prepend: site.url }}",
+        "width": 600,
+        "height": 60
+        }
+    }
+}
+</script>
+{% endfor %}
 {% endif %}

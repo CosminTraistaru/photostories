@@ -11,8 +11,6 @@ images:
   alt: Portraits
 - path: /assets/images/portfolio/portraits/R1-04.jpg
   alt: Portraits
-- path: /assets/images/portfolio/portraits/R1-08.jpg
-  alt: Portraits
 - path: /assets/images/portfolio/portraits/R1-09.jpg
   alt: Portraits
 - path: /assets/images/portfolio/portraits/R1-25.jpg
@@ -21,4 +19,7 @@ images:
   alt: Portraits
 - path: /assets/images/portfolio/portraits/R1-74.jpg
   alt: Portraits
+- path: /assets/images/portfolio/portraits/R1-08.jpg
+  alt: Portraits
+location: 1
 ---

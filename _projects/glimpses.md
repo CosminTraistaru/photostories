@@ -17,4 +17,5 @@ images:
   alt: Glimpses
 - path: /assets/images/portfolio/glimpses/R1-24.jpg
   alt: Glimpses
+location: 3
 ---
