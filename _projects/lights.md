@@ -2,7 +2,7 @@
 name: Lights 
 subtitle:
 featured:
-  path: /assets/images/portfolio/lights/R1-30-featured.jpg
+  path: /assets/images/portfolio/lights/r1-30-featured.jpg
   alt: Lights
   width: 1200
   height: 1794
