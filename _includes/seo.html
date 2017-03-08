@@ -87,9 +87,9 @@
     },
     "image": {
         "@type": "ImageObject",
-        "url": "{{ image.path | prepend: site.url }}",
         {% if image.height %}"height": {{ image.height }},{% endif %}
-        {% if image.width %}"width": {{ image.width }}{% endif %}
+        {% if image.width %}"width": {{ image.width }},{% endif %}
+        "url": "{{ image.path | prepend: site.url }}"
     },
     "headline": "{{ page.title  }}",
     "editor": "{{ site.title }}",
@@ -121,9 +121,9 @@
   "description": "{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}",
     "image": {
         "@type": "ImageObject",
-        "url": "{{ image.path | prepend: site.url }}",
         {% if image.height %}"height": {{ image.height }},{% endif %}
-        {% if image.width %}"width": {{ image.width }}{% endif %}
+        {% if image.width %}"width": {{ image.width }},{% endif %}
+        "url": "{{ image.path | prepend: site.url }}"
     },
   "publisher": {
     "@type": "Organization",
@@ -155,9 +155,9 @@
    },
    "image": {
         "@type": "ImageObject",
-        "url": "{{ image.path | prepend: site.url }}",
         {% if image.height %}"height": {{ image.height }},{% endif %}
-        {% if image.width %}"width": {{ image.width }}{% endif %}
+        {% if image.width %}"width": {{ image.width }},{% endif %}
+        "url": "{{ image.path | prepend: site.url }}"
     },
   "publisher": {
     "@type": "Organization",
