@@ -12,8 +12,8 @@ images:
 - path: /assets/uploads/ZiuaCarierei-0139b-14.jpg
   alt: Ziua Carierei
 type: post
-published: true
-status: publish
+published: false
+status: draft
 categories:
 - Portraits
 ---

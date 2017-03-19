@@ -2,7 +2,7 @@
 name: Places 
 subtitle:
 featured:
-  path: /assets/images/portfolio/places/R1-07.jpg
+  path: /assets/images/portfolio/places/5.jpg
   alt: Places
   width: 1200
   height: 803

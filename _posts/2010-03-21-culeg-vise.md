@@ -14,8 +14,8 @@ images:
 - path: /assets/uploads/CulegVise-8706e-07.jpg
   alt: Culeg Vise
 type: post
-published: true
-status: publish
+published: false
+status: draft
 categories:
 - Events
 ---

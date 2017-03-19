@@ -4,7 +4,7 @@ title: Feelings of light
 date: 2012-07-19 19:09:00.000000000 +03:00
 permalink: /2012/07/19/feelings-of-light/
 featured:
-  path: /assets/uploads/Feelingsoflight-b13d1-01.jpg
+  path: /assets/uploads/Feelingsoflight-f157f-03.jpg
   alt: Feelings of light
 images:
 - path: /assets/uploads/Feelingsoflight-b13d1-01.jpg

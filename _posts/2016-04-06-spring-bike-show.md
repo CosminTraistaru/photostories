@@ -4,7 +4,7 @@ title: Spring Bicycle Show
 date: 2016-04-06 11:39:17.000000000 +03:00
 permalink: /2016/04/06/spring-bike-show/
 featured:
-  path: /assets/uploads/SpringBicycleShow-000009.jpg
+  path: /assets/uploads/SpringBicycleShow-000011.jpg
   alt: Spring Bicycle Show
 images:
 - path: /assets/uploads/SpringBicycleShow-000009.jpg

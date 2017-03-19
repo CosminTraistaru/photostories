@@ -21,4 +21,5 @@ categories:
 ---
 
 Olga Torok - actress Teatrul German Timisoara
+
 Claudiu Andras - image designer

@@ -17,5 +17,4 @@ status: publish
 categories:
 - Portraits
 ---
-
-         Ella Dumitru
+Ella Dumitru

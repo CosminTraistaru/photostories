@@ -10,8 +10,8 @@ images:
 - path: /assets/uploads/Offwithhisheadcolorversion-fb79f-kodak_hd200_0022_r1_a2w.jpg
   alt: Off with his head - color version
 type: post
-published: true
-status: publish
+published: false
+status: draft
 categories:
 - Nudes
 ---

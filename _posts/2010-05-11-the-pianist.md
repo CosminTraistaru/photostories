@@ -14,8 +14,8 @@ images:
 - path: /assets/uploads/ThePianist-57f9b-12_w.jpg
   alt: The Pianist
 type: post
-published: true
-status: publish
+published: false
+status: draft
 categories:
 - Nudes
 ---

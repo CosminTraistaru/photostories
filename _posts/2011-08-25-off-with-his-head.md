@@ -14,8 +14,8 @@ images:
 - path: /assets/uploads/Offwithhishead-d32b1-unnamed.jpg
   alt: Off with his head !
 type: post
-published: true
-status: publish
+published: false
+status: draft
 categories:
 - Nudes
 ---

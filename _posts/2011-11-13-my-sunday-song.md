@@ -10,8 +10,8 @@ images:
 - path: /assets/uploads/Mysundaysong-afd40-fp4_2_0028.jpg
   alt: My sunday song
 type: post
-published: true
-status: publish
+published: false
+status: draft
 categories:
 - Portraits
 ---
