@@ -4,7 +4,7 @@ title: I'm moving to Narnia
 date: 2016-06-27 16:54:40.000000000 +03:00
 permalink: /2016/06/27/im-moving-narnia/
 featured:
-  path: /assets/uploads/ImmovingtoNarnia-R1-01-featured.jpg
+  path: /assets/uploads/ImmovingtoNarnia-r1-01-featured.jpg
   alt: I'm moving to Narnia
   width: 457
   height: 300
