@@ -25,10 +25,17 @@ categories:
 - Portraits
 ---
 "There's a firefly
+
 Loose tonight
+
 Better catch it
+
 Before it burns this place down
+
 And I lie
+
 If I don't feel so right
+
 But the world looks better
+
 Through your eyes."
