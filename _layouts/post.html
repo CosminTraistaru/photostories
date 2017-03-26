@@ -16,7 +16,10 @@ author:
 				{% endfor %}
 			{% endif %}
 			{% if page.youtube %}
-				<iframe width="100%" height="400px" src="https://www.youtube.com/embed/{{ page.youtube }}" frameborder="0" allowfullscreen></iframe>
+				<iframe width="100%" height="400px" src="https://www.youtube.com/embed/{{ page.youtube }}" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+			{% endif %}
+			{% if page.vimeo %}
+				<iframe width="100%" height="400px" src="https://player.vimeo.com/video/{{ page.vimeo }}" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 			{% endif %}
 			{% include facebook-sharing.html %}
 		</div>

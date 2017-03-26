@@ -20,6 +20,7 @@ published: true
 status: publish
 categories:
 - Portraits
+vimeo: 167760049
 ---
 Director: Cristina Siminiceanu
 
@@ -34,5 +35,3 @@ Make-up Artist: Adriana Unguras
 Hairstylist: Gianina Iorgoaia
 
 Designers (students at Faculty of Arts and Design, West University Timisoara): Carina Iasmina Bălan, Diana Giullia
-
-https://vimeo.com/167760049
