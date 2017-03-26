@@ -18,8 +18,8 @@ author:
   image:
     location: "/assets/images/about-3.jpg"
     alt: "Lorena Dumitrașcu PhotoStories"
-    height: 403
     width: 604
+    height: 403
 
 logo:
   location: /assets/images/logo-big-no-background.png
@@ -28,10 +28,10 @@ logo:
   height: 272
 
 featured:
-  path: "/assets/images/hero_image.jpg"
+  path: "/assets/images/portfolio/portraits/R1-02.jpg"
   alt: "Lorena Dumitrașcu PhotoStories"
-  height: 520
-  width: 1300
+  width: 1600
+  height: 1071
 
 # Social details for the jekyll-seo-tag gem
 social:
@@ -92,7 +92,7 @@ social_icons:
 
 google_site_verification: IGPwsFwq4AkUFkJH_ZNSfAZxy5_f5z9egR29iK3UOpA
 bing_verification: 6B172C70FEE194C409CD493D635473C3
-pintrest_verification:
+pintrest_verification: 2de06280859840aabcf8b1270368a7a8
 google_analytics_key: UA-3090430-14
 
 facebook:
