@@ -9,18 +9,6 @@ featured:
   height: 720
   width: 1800
 images:
-- path: "/assets/images/about/about-1.jpg"
-  alt: "Lorena Dumitrașcu PhotoStories"
-  height: 640
-  width: 960
-- path: "/assets/images/about/about-2.jpg"
-  alt: "Lorena Dumitrașcu PhotoStories"
-  height: 568
-  width: 858
-- path: "/assets/images/about/about-3.jpg"
-  alt: "Lorena Dumitrașcu PhotoStories"
-  height: 403
-  width: 604
 - path: "/assets/images/about/3.jpg"
   alt: "Lorena Dumitrașcu PhotoStories"
   height: 1600
@@ -33,6 +21,18 @@ images:
   alt: "Lorena Dumitrașcu PhotoStories"
   height: 1600
   width: 1200
+- path: "/assets/images/about/about-1.jpg"
+  alt: "Lorena Dumitrașcu PhotoStories"
+  height: 640
+  width: 960
+- path: "/assets/images/about/about-2.jpg"
+  alt: "Lorena Dumitrașcu PhotoStories"
+  height: 568
+  width: 858
+- path: "/assets/images/about/about-3.jpg"
+  alt: "Lorena Dumitrașcu PhotoStories"
+  height: 403
+  width: 604
 ---
 
 Incercam sa explic cuiva cine sunt. Cine e Lorena Dumitrascu. Am sa restrang multitudinea de raspunsuri la doua : “pai, e aia care iubeste sa faca poze si sa danseze”. Si-a gasit esenta.
