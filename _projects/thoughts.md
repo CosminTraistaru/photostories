@@ -2,10 +2,10 @@
 name: Thoughts 
 subtitle:
 featured:
-  path: /assets/images/portfolio/portraits/R1-25.jpg
+  path: /assets/images/portfolio/portraits/R1-02.jpg
   alt: Thoughts
-  width: 1200
-  height: 803
+  width: 1600
+  height: 1071
 images:
 - path: /assets/images/portfolio/portraits/R1-00.jpg
   alt: Thoughts
@@ -15,6 +15,8 @@ images:
   alt: Thoughts
 - path: /assets/images/portfolio/portraits/R1-25.jpg
   alt: Thoughts
+  width: 1200
+  height: 803
 - path: /assets/images/portfolio/portraits/R1-049.jpg
   alt: Thoughts
 - path: /assets/images/portfolio/portraits/R1-74.jpg
@@ -25,5 +27,7 @@ images:
   alt: Thoughts
 - path: /assets/images/portfolio/portraits/R1-02.jpg
   alt: Thoughts
+  width: 1600
+  height: 1071
 location: 1
 ---
