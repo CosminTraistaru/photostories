@@ -90,5 +90,7 @@ document.getElementById("open-nav").onclick = function () {
 {% if jekyll.environment == 'production' %}
 <script async defer type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-58a9ace099c35160"></script>
 {% endif %}
+<script src="https://cdn.ravenjs.com/3.14.1/raven.min.js" crossorigin="anonymous"></script>
+<script>Raven.config('https://7520034947864fa5a33dfbbb6d8491a5@sentry.io/158167').install();</script>
 </body>
 </html>
