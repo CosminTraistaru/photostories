@@ -1,9 +1,10 @@
-title: Lorena Dumitrașcu Photo Stories
+title: Light Stories by Lorena Dumitrașcu
+
 url: "https://lorenadumitrascu.ro"
 baseurl:
 
 # Default description in social shares for the jekyll-seo-tag gem
-description: Lorena Dumitrașcu Photo Stories.
+description: Light Stories by Lorena Dumitrașcu.
 
 # Author details for the jekyll-seo-tag gem
 author:
@@ -17,28 +18,28 @@ author:
   instagram_url: https://www.instagram.com/lorena_dumitrascu/
   image:
     location: "/assets/images/about-3.jpg"
-    alt: "Lorena Dumitrașcu PhotoStories"
+    alt: "Light Stories by Lorena Dumitrașcu"
     width: 604
     height: 403
 
 logo:
   location: /assets/images/logo-big-no-background.png
-  alt: "Logo Lorena Dumitrașcu PhotoStories"
+  alt: "Light Stories by Lorena Dumitrașcu"
   width: 1300
   height: 272
 
 featured:
   path: "/assets/images/portfolio/portraits/R1-02.jpg"
-  alt: "Lorena Dumitrașcu PhotoStories"
+  alt: "Light Stories by Lorena Dumitrașcu"
   width: 1600
   height: 1071
 
 # Social details for the jekyll-seo-tag gem
 social:
-  name: Lorena Dumitrașcu Photo Stories
+  name: Light Stories by Lorena Dumitrașcu
   links:
     - https://twitter.com/LorenaDumitrasc
-    - https://www.facebook.com/LorenaDumitrascuPhotoStories/
+    - https://www.facebook.com/lightstories.ro/
     - https://www.instagram.com/lorena_dumitrascu/
 
 collections:
