@@ -22,7 +22,7 @@ A collection of stories. This is how I see the world around me. Different, Movin
 			{% for project in sorted limit: 6 %}
 					<li>
 						<a href="{{ site.baseurl }}{{ project.url }}">
-							<img src="{% include relative-src.html src=project.featured.path %}">
+							<img src="{% include relative-src.html src=project.cover.path %}">
 							<div class="details">
 								<div class="name">{{ project.name }}</div>
 							</div>

@@ -1,6 +1,9 @@
 ---
 name: Feelings 
 subtitle:
+cover:
+  path: /assets/images/portfolio/feelings/cover.jpg
+  alt: Feelings
 featured:
   path: /assets/images/portfolio/feelings/R1-09.jpg
   alt: Feelings

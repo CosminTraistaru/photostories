@@ -1,6 +1,9 @@
 ---
 name: Thoughts 
 subtitle:
+cover:
+  path: /assets/images/portfolio/portraits/cover.jpg
+  alt: Thoughts
 featured:
   path: /assets/images/portfolio/portraits/R1-02.jpg
   alt: Thoughts

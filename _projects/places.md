@@ -1,6 +1,9 @@
 ---
 name: Places 
 subtitle:
+cover:
+  path: /assets/images/portfolio/places/cover.jpg
+  alt: Places
 featured:
   path: /assets/images/portfolio/places/5.jpg
   alt: Places

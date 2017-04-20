@@ -1,6 +1,9 @@
 ---
 name: Weddings 
 subtitle:
+cover:
+  path: /assets/images/portfolio/weddings/cover.jpg
+  alt: Weddings - Ana
 featured:
   path: /assets/images/portfolio/weddings/R1-27.jpg
   alt: Weddings - Ana
