@@ -18,5 +18,5 @@ images:
   alt: Glimpses
 - path: /assets/images/portfolio/glimpses/R1-37.jpg
   alt: Glimpses
-location: 3
+location: 7
 ---

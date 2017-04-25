@@ -8,6 +8,9 @@ status: publish
 permalink: /2016/12/17/sunday-scent/
 categories:
 - Portraits
+cover:
+  path: "/assets/images/2016/sunday-scent/cover.jpg"
+  alt: "Sunday scent - Marisha"
 featured:
   path: "/assets/images/2016/sunday-scent/R1-10-min.jpg"
   alt: "Sunday scent - Marisha"
@@ -79,7 +82,11 @@ images:
   width: 1200
   height: 803
 ---
-Trăim in epoca în care spectacolul de suprafață este mai important decât esența. Epoca efectelor speciale. Sunt puțin revoltată( puțin= ambalaj finuț pentru mult) când văd cât de mult ne-am distanțat de naturalul și firescul uman. Percepția despre estetic, creativitatea și conectarea cu noi și cu ceilalți s-au pierdut pe drumul către o perfecțiune închipuită, inexistentă. Totodata, mă bucur enorm să întâlnesc oameni autentici, care se simt bine cu ei și transmit asta cu fiecare gest.
+Trăim in epoca în care spectacolul de suprafață este mai important decât esența. Epoca efectelor speciale. Sunt puțin revoltată (puțin = ambalaj finuț pentru mult) când văd cât de mult ne-am distanțat de naturalul și firescul uman.
+Percepția despre estetic, creativitatea și conectarea cu noi și cu ceilalți s-au
+pierdut pe drumul către o perfecțiune închipuită, inexistentă. Totodata, mă bucur
+enorm să întâlnesc oameni autentici, care se simt bine cu ei și transmit asta cu
+fiecare gest.
 Marisha e unul dintre acei oameni.
 Ziua în care am fotografia-o "o fo" tare faină ,  cu soare, râs mult, blugi cu noroi că m-am cățărat prin diverse locuri, dus filme la developat și scanat, prelucrat fotografii contrast și praf de pe film, evitat prelucrat mai mult de atât, păstrat linia naturaleții, simțit bine .
 Apoi a urmat întrebarea:

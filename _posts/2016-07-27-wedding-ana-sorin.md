@@ -3,6 +3,9 @@ layout: post
 title: Wedding Ana and Sorin
 date: 2016-07-27 16:34:10.000000000 +03:00
 permalink: /2016/07/27/wedding-ana-sorin/
+cover:
+  path: /assets/uploads/weddinganaandsorin-cover.jpg
+  alt: Wedding Ana and Sorin
 featured:
   path: /assets/uploads/WeddingAnaandSorin-colaj1.jpg
   alt: Wedding Ana and Sorin

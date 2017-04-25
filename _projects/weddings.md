@@ -44,5 +44,5 @@ images:
   alt: Weddings
 - path: /assets/images/portfolio/weddings/R1-36.jpg
   alt: Weddings
-location: 5
+location: 3
 ---

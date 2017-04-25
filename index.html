@@ -12,12 +12,11 @@ title: Lorena Dumitrașcu
 	<div class="container">
 		<div>
 			<h3 class="editable">Photographs on Film</h3>
-			<p class="editable"><a href="{{ site.baseurl }}/portfolio/">View Full Portfolio &rarr;</a></p>
 		</div>
 		<div>
 			<ul class="image-grid">
 			{% assign sorted = (site.projects | sort: 'location') %}
-			{% for project in sorted limit: 6 %}
+			{% for project in sorted limit: 4 %}
 					<li>
 						<a href="{{ site.baseurl }}{{ project.url }}">
 							<img src="{% include relative-src.html src=project.cover.path %}">
@@ -29,9 +28,26 @@ title: Lorena Dumitrașcu
 			{% endfor %}
 			</ul>
 		</div>
+		<p class="editable"><a href="{{ site.baseurl }}/portfolio/">View Full Portfolio &rarr;</a></p>
 	</div>
 </section>
+
 <section class="diagonal">
+	<div class="text-container">
+		<div>
+			<h3 class="editable">Latest blog posts</h3>
+		</div>
+		<div>
+			<ul class="blog-posts">
+			{% for post in site.posts limit: 2 %}
+			<li class="blog-post">{% include post-summary.html post=post read="not" %}</li>
+			{% endfor %}
+			</ul>
+		</div>
+	</div>
+</section>
+
+<section class="diagonal patterned">
 	<div class="text-container">
 		<div>
 			<h3 class="editable">Contact</h3>
@@ -41,18 +57,3 @@ title: Lorena Dumitrașcu
 		</div>
 	</div>
 </section>
-
-<!--<section class="diagonal">-->
-	<!--<div class="text-container">-->
-		<!--<div>-->
-			<!--<h3 class="editable">Latest blog posts</h3>-->
-		<!--</div>-->
-		<!--<div>-->
-			<!--<ul class="blog-posts">-->
-			<!--{% for post in site.posts limit: 4 %}-->
-			<!--<li class="blog-post">{% include post-summary.html post=post read="not" %}</li>-->
-			<!--{% endfor %}-->
-			<!--</ul>-->
-		<!--</div>-->
-	<!--</div>-->
-<!--</section>-->

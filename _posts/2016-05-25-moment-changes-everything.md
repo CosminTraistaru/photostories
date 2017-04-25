@@ -3,6 +3,9 @@ layout: post
 title: This moment changes everything
 date: 2016-05-25 18:04:53.000000000 +03:00
 permalink: /2016/05/25/moment-changes-everything/
+cover:
+  path: /assets/uploads/thismoment-cover.jpg
+  alt: This moment changes everything
 featured:
   path: /assets/uploads/Thismomentchangeseverything-DSC_2221ed2.jpg
   alt: This moment changes everything

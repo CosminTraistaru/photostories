@@ -32,5 +32,5 @@ images:
   alt: Thoughts
   width: 1600
   height: 1071
-location: 1
+location: 5
 ---

@@ -3,7 +3,11 @@
 	<a href="{{ site.baseurl }}{{ include.post.url }}">
 	{% if include.post.featured %}
 		<div class="list-posts">
+			{% if include.post.cover %}
+			<img src="{{ include.post.cover.path }}" alt="" border="0" />
+			{% else %}
 			<img src="{{ include.post.featured.path }}" alt="" border="0" />
+			{% endif %}
 		</div>
 	{% endif %}
 		<h3>

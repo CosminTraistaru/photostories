@@ -20,5 +20,5 @@ images:
   alt: Lights
 - path: /assets/images/portfolio/lights/R1-27.jpg
   alt: Lights
-location: 4
+location: 6
 ---
