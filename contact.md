@@ -16,8 +16,14 @@ A collection of stories.
 Most of the photographs are shoot on film in 35mm, medium format,
 black and white or color.
 
-Photograph products for lifestyle portraits, live concerts,
-music events, festivals, book release, theatre, weddings.
+Photograph products for:
+ - lifestyle portraits
+ - theatre
+ - weddings
+ - festivals
+ - live concerts
+ - music events
+ - book releases
 
 Email: [lorenadumitrascu@gmail.com](mailto:lorenadumitrascu@gmail.com)
 
