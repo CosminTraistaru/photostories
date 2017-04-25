@@ -11,6 +11,12 @@ featured:
   width: 1800
 ---
 
-Email: lorenadumitrascu@gmail.com
+A collection of stories.
+Most of the photographs are shoot on film in 35mm, medium format,
+black and white or color.
+Photograph products for lifestyle portraits, live concerts,
+music events, festivals, book release, theatre, weddings.
 
-Tel: +40 757 0740 54
+Email: [lorenadumitrascu@gmail.com](mailto:lorenadumitrascu@gmail.com)
+
+Tel: [+40 757 074 054](tel:+40757074054)
