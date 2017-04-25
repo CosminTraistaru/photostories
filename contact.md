@@ -13,8 +13,7 @@ featured:
 
 A collection of stories.
 
-Most of the photographs are shoot on film in 35mm, medium format,
-black and white or color.
+Most of the photographs are shoot on film in 35mm, black and white or color.
 
 Photograph products for:
  - lifestyle portraits
