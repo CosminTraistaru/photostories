@@ -25,7 +25,11 @@ status: publish
 categories:
 - Portraits
 ---
-Povestea fotografiilor a fost asa:
-" Hei, salut, scuze, ma tot chinui sa-ti fac poze pe ascuns si nu cred ca ies prea bine. Pot sa-ti fac poze si tu sa stii ca ti le fac?"
+Povestea fotografiilor a fost așa:
+
+"Hei, salut, scuze, mă tot chinui sa-ți fac poze pe ascuns și nu cred că ies prea bine.
+Pot să-ți fac poze și tu să știi că ți le fac?"
+
 Eram la Cluuuj.
-Faina tare fata asta, no.
+
+Faină tare fata asta, no.

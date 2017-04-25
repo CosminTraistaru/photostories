@@ -3,5 +3,7 @@ links:
   link: /portfolio/
 - name: Blog
   link: /blog/
+- name: Contact
+  link: /contact/
 - name: About
   link: /about/
