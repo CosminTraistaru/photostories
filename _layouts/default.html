@@ -12,6 +12,7 @@
 {{ include_to_scssify | scssify }}
 </style>
 </head>
+<body class="eupopup eupopup-bottom eupopup-style-compact">
 	<header>
 		<div class="container">
 			<h1 class="company-name"><a href="{{ site.baseurl }}/">Lorena Dumitrașcu</a></h1>
@@ -84,7 +85,9 @@ document.getElementById("open-nav").onclick = function () {
 	ga("send", "pageview");
 </script>
 {% endif %}
-<script async defer src="/assets/lightbox/lightbox-plus-jquery.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g=" crossorigin="anonymous"></script>
+<script async defer src="/assets/lightbox/lightbox.min.js"></script>
+<script async defer src="/assets/cookie/cookie.js"></script>
 {% if jekyll.environment == 'production' %}
 <script async defer type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-58a9ace099c35160"></script>
 {% endif %}
