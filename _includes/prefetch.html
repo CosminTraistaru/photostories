@@ -1,5 +1,5 @@
-<link rel=”preload” as="font" type="font/woff2" href="https://fonts.gstatic.com/s/opensanscondensed/v10/gk5FxslNkTTHtojXrkp-xPJmhJzg6kSQTtrFMk-8lT5_v5H-gcmDugi2HQeB0BPm.woff2">
-<link rel=”preload” as="font" type="font/woff2" href="https://fonts.gstatic.com/s/opensanscondensed/v10/gk5FxslNkTTHtojXrkp-xIgEy7irt_A5K-aDq9kG7DHr7w4p9aSvGirXi6XmeXNA.woff2">
+<link rel="preload" as="font" type="font/woff2" href="/assets/fonts/f1.woff2">
+<link rel="preload" as="font" type="font/woff2" href="/assets/fonts/f2.woff2">
 
 <link rel="dns-prefetch" href="//s7.addthis.com">
 <link rel="dns-prefetch" href="//m.addthisedge.com">
@@ -18,6 +18,31 @@
 <link rel="prefetch" href="{{ site.url }}/contact/">
 <link rel="prefetch" href="{{ site.url }}/about/">
 
+{% assign posts = site.projects %}
+    {% for post in posts %}
+        {% if post.cover %}
+<link rel="prefetch" href="{{ post.cover.path | prepend: site.url }}"/>
+        {% endif %}
+{% endfor %}
+
+{% assign posts = paginator.posts %}
+    {% for post in posts limit: 10 %}
+        {% if post.cover %}
+<link rel="prefetch" href="{{ post.cover.path | prepend: site.url }}"/>
+        {% else %}
+<link rel="prefetch" href="{{ post.featured.path | prepend: site.url }}"/>
+        {% endif %}
+{% endfor %}
+
+{% if page.layout == "post" %}
+    {% for image in post.next.images %}
+<link rel="prefetch" href="{{ image.path | prepend: site.url }}"/>
+    {% endfor %}
+    {% for image in post.previous.images %}
+<link rel="prefetch" href="{{ image.path | prepend: site.url }}"/>
+    {% endfor %}
+{% endif %}
+
 {% if page.title == "Blog" %}
     {% assign posts = paginator.posts %}
     {% for post in posts limit: 4 %}
@@ -29,25 +54,13 @@
     {% endfor %}
 {% endif %}
 
-{% if page.title == "Portfolio" %}
+{% if page.title == "Portfolio" or page.layout == "project"%}
     {% assign posts = site.projects %}
-    {% for post in posts limit: 4 %}
+    {% for post in posts %}
         {% if post.images %}
         {% for image in post.images %}
 <link rel="prefetch" href="{{ image.path | prepend: site.url }}"/>
         {% endfor %}
         {% endif %}
     {% endfor %}
-{% endif %}
-
-{% if page.layout == "post" %}
-{% for image in post.next.images %}
-<link rel="prefetch" href="{{ image.path | prepend: site.url }}"/>
-{% endfor %}
-{% endif %}
-
-{% if page.layout == "post" %}
-{% for image in post.previous.images %}
-<link rel="prefetch" href="{{ image.path | prepend: site.url }}"/>
-{% endfor %}
 {% endif %}
