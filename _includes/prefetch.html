@@ -1,0 +1,53 @@
+<link rel=”preload” as="font" href="https://fonts.gstatic.com/s/opensanscondensed/v10/gk5FxslNkTTHtojXrkp-xPJmhJzg6kSQTtrFMk-8lT5_v5H-gcmDugi2HQeB0BPm.woff2">
+<link rel=”preload” as="font" href="https://fonts.gstatic.com/s/opensanscondensed/v10/gk5FxslNkTTHtojXrkp-xIgEy7irt_A5K-aDq9kG7DHr7w4p9aSvGirXi6XmeXNA.woff2">
+
+<link rel="dns-prefetch" href="//s7.addthis.com">
+<link rel="dns-prefetch" href="//m.addthisedge.com">
+<link rel="dns-prefetch" href="//code.jquery.com">
+<link rel="dns-prefetch" href="//www.google-analytics.com">
+<link rel="dns-prefetch" href="//stats.g.doubleclick.net">
+<link rel="dns-prefetch" href="//fonts.gstatic.com">
+<link rel="dns-prefetch" href="//connect.facebook.net">
+<link rel="dns-prefetch" href="//graph.facebook.com">
+<link rel="dns-prefetch" href="//www.facebook.com">
+<link rel="dns-prefetch" href="//widgets.pinterest.com">
+
+<link rel="prefetch" href="{{ site.url }}/">
+<link rel="prefetch" href="{{ site.url }}/portfolio/">
+<link rel="prefetch" href="{{ site.url }}/blog/">
+<link rel="prefetch" href="{{ site.url }}/contact/">
+<link rel="prefetch" href="{{ site.url }}/about/">
+
+{% if page.title == "Blog" %}
+    {% assign posts = paginator.posts %}
+    {% for post in posts limit: 4 %}
+        {% if post.images %}
+        {% for image in post.images %}
+<link rel="prefetch" href="{{ image.path | prepend: site.url }}"/>
+        {% endfor %}
+        {% endif %}
+    {% endfor %}
+{% endif %}
+
+{% if page.title == "Portfolio" %}
+    {% assign posts = site.projects %}
+    {% for post in posts limit: 4 %}
+        {% if post.images %}
+        {% for image in post.images %}
+<link rel="prefetch" href="{{ image.path | prepend: site.url }}"/>
+        {% endfor %}
+        {% endif %}
+    {% endfor %}
+{% endif %}
+
+{% if page.layout == "post" %}
+{% for image in post.next.images %}
+<link rel="prefetch" href="{{ image.path | prepend: site.url }}"/>
+{% endfor %}
+{% endif %}
+
+{% if page.layout == "post" %}
+{% for image in post.previous.images %}
+<link rel="prefetch" href="{{ image.path | prepend: site.url }}"/>
+{% endfor %}
+{% endif %}
