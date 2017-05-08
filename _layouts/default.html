@@ -61,7 +61,7 @@
 		</div>
 	</footer>
 
-<script>
+<script defer>
 // Menu open start
 document.getElementById("open-nav").onclick = function () {
 	document.body.classList.toggle("nav-open");
@@ -79,10 +79,10 @@ document.getElementById("open-nav").onclick = function () {
 {% endif %}
 
 <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
-<script async defer src="/assets/lightbox/lightbox.min.js"></script>
-<script async defer src="/assets/cookie/cookie.js"></script>
+<script defer src="/assets/lightbox/lightbox.min.js"></script>
+<script defer src="/assets/cookie/cookie.js"></script>
 {% if jekyll.environment == 'production' %}
-<script async defer type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-58a9ace099c35160"></script>
+<script defer type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-58a9ace099c35160"></script>
 {% endif %}
 </body>
 </html>
