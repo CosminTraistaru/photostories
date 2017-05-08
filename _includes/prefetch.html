@@ -50,25 +50,25 @@
     {% endfor %}
 {% endif %}
 
-{% if page.title == "Portfolio" or page.layout == "project"%}
-    {% for post in site.projects %}
-        {% if post.images %}
-        {% for image in post.images %}
-<link rel="prefetch" href="{{ image.path | prepend: site.url }}"/>
-        {% endfor %}
-        {% endif %}
-    {% endfor %}
-{% endif %}
+<!--{% if page.title == "Portfolio" or page.layout == "project"%}-->
+    <!--{% for post in site.projects %}-->
+        <!--{% if post.images %}-->
+        <!--{% for image in post.images %}-->
+<!--<link rel="prefetch" href="{{ image.path | prepend: site.url }}"/>-->
+        <!--{% endfor %}-->
+        <!--{% endif %}-->
+    <!--{% endfor %}-->
+<!--{% endif %}-->
 
-{% if page.title == site.title %}
-    {% for post in site.posts limit:2 %}
-        {% if post.images %}
-        {% for image in post.images %}
-<link rel="prefetch" href="{{ image.path | prepend: site.url }}"/>
-        {% endfor %}{% endif %}{% endfor %}
-    {% for project in site.projects limit:2 %}
-        {% if project.images %}
-        {% for image in project.images %}
-<link rel="prefetch" href="{{ image.path | prepend: site.url }}"/>
-        {% endfor %}{% endif %}{% endfor %}
-{% endif %}
+<!--{% if page.title == site.title %}-->
+    <!--{% for post in site.posts limit:2 %}-->
+        <!--{% if post.images %}-->
+        <!--{% for image in post.images %}-->
+<!--<link rel="prefetch" href="{{ image.path | prepend: site.url }}"/>-->
+        <!--{% endfor %}{% endif %}{% endfor %}-->
+    <!--{% for project in site.projects limit:2 %}-->
+        <!--{% if project.images %}-->
+        <!--{% for image in project.images %}-->
+<!--<link rel="prefetch" href="{{ image.path | prepend: site.url }}"/>-->
+        <!--{% endfor %}{% endif %}{% endfor %}-->
+<!--{% endif %}-->
