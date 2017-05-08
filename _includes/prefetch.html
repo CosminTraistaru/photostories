@@ -1,12 +1,19 @@
-<link rel="dns-prefetch" href="//code.jquery.com">
-<link rel="dns-prefetch" href="//s7.addthis.com">
-<link rel="dns-prefetch" href="//www.google-analytics.com">
+<link rel="preload" type="style" href="{{ site.url }}/assets/images/pattern.png" />
+
+<link rel="dns-prefetch" href="//code.jquery.com"/>
+<link rel="dns-prefetch" href="//s7.addthis.com"/>
+<link rel="dns-prefetch" href="//www.google-analytics.com"/>
 
 <link rel="prefetch" href="{{ site.url }}/">
 <link rel="prefetch" href="{{ site.url }}/portfolio/">
 <link rel="prefetch" href="{{ site.url }}/blog/">
 <link rel="prefetch" href="{{ site.url }}/contact/">
 <link rel="prefetch" href="{{ site.url }}/about/">
+
+<link rel="prefetch" href="{{ site.url }}/assets/lightbox/images/close.png">
+<link rel="prefetch" href="{{ site.url }}/assets/lightbox/images/loading.gif">
+<link rel="prefetch" href="{{ site.url }}/assets/lightbox/images/prev.png">
+<link rel="prefetch" href="{{ site.url }}/assets/lightbox/images/next.png">
 
 {% assign posts = site.projects %}
     {% for post in posts %}
@@ -15,7 +22,7 @@
         {% endif %}
 {% endfor %}
 
-{% assign posts = paginator.posts %}
+{% assign posts = site.posts %}
     {% for post in posts limit: 10 %}
         {% if post.cover %}
 <link rel="prefetch" href="{{ post.cover.path | prepend: site.url }}"/>
@@ -34,8 +41,7 @@
 {% endif %}
 
 {% if page.title == "Blog" %}
-    {% assign posts = paginator.posts %}
-    {% for post in posts limit: 4 %}
+    {% for post in site.posts limit: 4 %}
         {% if post.images %}
         {% for image in post.images %}
 <link rel="prefetch" href="{{ image.path | prepend: site.url }}"/>
@@ -45,12 +51,24 @@
 {% endif %}
 
 {% if page.title == "Portfolio" or page.layout == "project"%}
-    {% assign posts = site.projects %}
-    {% for post in posts %}
+    {% for post in site.projects %}
         {% if post.images %}
         {% for image in post.images %}
 <link rel="prefetch" href="{{ image.path | prepend: site.url }}"/>
         {% endfor %}
         {% endif %}
     {% endfor %}
+{% endif %}
+
+{% if page.title == site.title %}
+    {% for post in site.posts limit:2 %}
+        {% if post.images %}
+        {% for image in post.images %}
+<link rel="prefetch" href="{{ image.path | prepend: site.url }}"/>
+        {% endfor %}{% endif %}{% endfor %}
+    {% for project in site.projects limit:2 %}
+        {% if project.images %}
+        {% for image in project.images %}
+<link rel="prefetch" href="{{ image.path | prepend: site.url }}"/>
+        {% endfor %}{% endif %}{% endfor %}
 {% endif %}

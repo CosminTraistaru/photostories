@@ -1,9 +1,3 @@
-/* Preload images */
-body:after {
-  content: url(/assets/lightbox/images/close.png) url(/assets/lightbox/images/loading.gif) url(/assets/lightbox/images/prev.png) url(/assets/lightbox/images/next.png);
-  display: none;
-}
-
 body.lb-disable-scrolling {
   overflow: hidden;
 }
