@@ -20,9 +20,6 @@ Photograph products for:
  - theatre
  - weddings
  - festivals
- - live concerts
- - music events
- - book releases
 
 Email: [lorenadumitrascu@gmail.com](mailto:lorenadumitrascu@gmail.com)
 
