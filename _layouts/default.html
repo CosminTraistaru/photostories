@@ -10,13 +10,13 @@
 {{ include_to_scssify | scssify }}
 </style>
 {% include seo.html %}
-{% include prefetch.html %}
+<!--{% include prefetch.html %}-->
 {% feed_meta %}
 </head>
 <body class="eupopup eupopup-bottom eupopup-style-compact">
 	<header>
 		<div class="container">
-			<h1 class="company-name"><a href="{{ site.baseurl }}/">Lorena Dumitrașcu</a></h1>
+			<h1 class="company-name"><a href="{{ site.baseurl }}/">{{ site.short_title }}</a></h1>
 			{% include navigation.html %}
 		</div>
 	</header>

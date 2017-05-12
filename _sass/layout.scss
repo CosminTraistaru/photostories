@@ -14,7 +14,7 @@
 }
 
 .container {
-	max-width: 1024px;
+	max-width: 1280px;
 }
 
 header {
@@ -38,6 +38,7 @@ header {
 
 	.company-name {
 		font-size: 1.7em;
+		text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 	}
 }
 
@@ -196,7 +197,7 @@ section {
 			position: absolute;
 			left: 50%;
 			top: 50%;
-			transform: translateX(-50%) translateY(-50%);
+			transform: translateX(-33%) translateY(-33%);
 		}
 	}
 
@@ -254,4 +255,9 @@ section {
 
 .editable a {
 	color: #ffffff;
+}
+
+
+nav a {
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
