@@ -39,7 +39,7 @@ title: Light Stories by Lorena Dumitrașcu
 		</div>
 		<div>
 			<ul class="blog-posts">
-			{% for post in site.posts limit: 2 %}
+			{% for post in site.posts limit: 4 %}
 			<li class="blog-post">{% include post-summary.html post=post read="not" %}</li>
 			{% endfor %}
 			</ul>

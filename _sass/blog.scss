@@ -1,9 +1,21 @@
 .blog-posts {
 	list-style: none;
 	padding: 0;
+	display: flex;
+	flex-flow: wrap;
 
 	li {
-		margin: 50px 0;
+		margin: 20px 5px;
+
+		@media #{$tablet} {
+			flex: 1 1 50%;
+			width: 80%;
+		}
+
+		@media #{$desktop} {
+			flex: 1 1 45%;
+			width: 70%;
+		}
 	}
 }
 
