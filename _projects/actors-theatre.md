@@ -24,11 +24,11 @@ images:
   alt: Actors and Theatre
 - path: /assets/uploads/CLARA-clara-1.jpg
   alt: Actors and Theatre
-- path: /assets/uploads/Feelingsoflight-b13d1-01.jpg
+- path: /assets/images/portfolio/feelings/R1-08.jpg
   alt: Actors and Theatre
 - path: /assets/uploads/OnastreetinTimisoara-3fbff-picture109.jpg
   alt: Actors and Theatre
-- path: /assets/uploads/TheDayshedanced-8b8a7-npn400_0006m.jpg
+- path: /assets/images/portfolio/portraits/R1-08.jpg
   alt: Actors and Theatre
 location: 1
 ---
