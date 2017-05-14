@@ -22,10 +22,6 @@ images:
   alt: "Barcelona - Cosmin"
   width: 1200
   height: 858
-- path: "/assets/images/2016/barcelona/colaj-bcn2.jpg"
-  alt: "Barcelona - Diafilm - Girl"
-  width: 1200
-  height: 803
 - path: "/assets/images/2016/barcelona/r1-00.jpg"
   alt: "Barcelona - Diafilm - Carrousel"
   width: 1200
@@ -86,7 +82,10 @@ images:
   alt: "Barcelona - Tibidabo view"
   width: 1200
   height: 803
+- path: "/assets/images/2016/barcelona/colaj-bcn2.jpg"
+  alt: "Barcelona - Diafilm - Girl"
+  width: 1200
+  height: 803
 ---
-Barcelona. Un oraș pe care mi-am dorit de câțiva ani să îl vizitez și acum mă întreabă oamenii la care le-am povestit dacă aș vrea să mă mut acolo. Nu, spun eu, pentru că e prea aglomerat pentru gusturile unui om în căutare de liniște. Îmi place să-mi  aud gândurile, de cele mai multe ori spun chestii faine. În altă ordine de idei, aș vizita orașul ăsta de multe, multe ori, ba chiar aș face naveta săptamanal să îl văd. E fascinant, simți că respiri artă si cultură. Problema e că m-am întors cu o nouă obsesie numită GAUDI.... de parcă n-am destule.
+Barcelona. Un oraș pe care mi-am dorit de câțiva ani să îl vizitez iar acum sunt întrebată de oamenii la care le-am povestit dacă aș vrea să mă mut acolo. Nu, spun eu, pentru că e prea aglomerat pentru gusturile unui om în căutare de liniște. Îmi place să-mi  aud gândurile, de cele mai multe ori spun chestii faine. În altă ordine de idei, aș vizita orașul ăsta de multe, multe ori, aș face naveta săptamanal să îl văd. E fascinant, simți că respiri artă si cultură. Problema acum e că m-am întors cu o nouă obsesie numită GAUDI.... pfff, de parcă n-am destule.
 PS: Dacă o ştie cineva pe fata din ultima poză (zicea că e din Germania de pe undeva), să îi spună că a uitat să-mi dea add pe facebook. Mulţumesc.
-

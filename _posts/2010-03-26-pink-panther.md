@@ -12,7 +12,7 @@ images:
 - path: /assets/uploads/PinkPanther-bbe0f-05_2_w.jpg
   alt: Pink Panther
 type: post
-published: true
+published: false
 status: publish
 categories:
 - Portraits

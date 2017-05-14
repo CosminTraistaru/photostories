@@ -9,8 +9,6 @@ featured:
 images:
 - path: /assets/uploads/LightsandFireFlies-colaj-cos-2.jpg
   alt: Lights and FireFlies
-- path: /assets/uploads/LightsandFireFlies-colaj-cos-3.jpg
-  alt: Lights and FireFlies
 - path: /assets/uploads/LightsandFireFlies-R1-30.jpg
   alt: Lights and FireFlies
 - path: /assets/uploads/LightsandFireFlies-R1-35.jpg
