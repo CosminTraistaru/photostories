@@ -17,39 +17,15 @@ featured:
   width: 1200
   height: 813
 images:
-- path: "/assets/images/2016/sunday-scent/R1-02-min.jpg"
+- path: "/assets/images/2016/sunday-scent/R1-00-min.jpg"
   alt: "Sunday scent - Marisha"
   width: 1200
   height: 1794
-- path: "/assets/images/2016/sunday-scent/R1-04-min.jpg"
+- path: "/assets/images/2016/sunday-scent/R1-10-min.jpg"
   alt: "Sunday scent - Marisha"
   width: 1200
-  height: 1794
-- path: "/assets/images/2016/sunday-scent/R1-06-min.jpg"
-  alt: "Sunday scent - Marisha"
-  width: 1200
-  height: 1794
-- path: "/assets/images/2016/sunday-scent/R1-12-min.jpg"
-  alt: "Sunday scent - Marisha"
-  width: 1200
-  height: 1794
-- path: "/assets/images/2016/sunday-scent/R1-13-min.jpg"
-  alt: "Sunday scent - Marisha"
-  width: 1200
-  height: 1794
+  height: 813
 - path: "/assets/images/2016/sunday-scent/R1-14-min.jpg"
-  alt: "Sunday scent - Marisha"
-  width: 1200
-  height: 1794
-- path: "/assets/images/2016/sunday-scent/R1-16-min.jpg"
-  alt: "Sunday scent - Marisha"
-  width: 1200
-  height: 1794
-- path: "/assets/images/2016/sunday-scent/R1-18-min.jpg"
-  alt: "Sunday scent - Marisha"
-  width: 1200
-  height: 1794
-- path: "/assets/images/2016/sunday-scent/R1-20-min.jpg"
   alt: "Sunday scent - Marisha"
   width: 1200
   height: 1794
@@ -60,12 +36,8 @@ images:
 - path: "/assets/images/2016/sunday-scent/R1-23-min.jpg"
   alt: "Sunday scent - Marisha"
   width: 1200
-  height: 1794
+  height: 803
 - path: "/assets/images/2016/sunday-scent/R1-29-min.jpg"
-  alt: "Sunday scent - Marisha"
-  width: 1200
-  height: 1794
-- path: "/assets/images/2016/sunday-scent/R1-31-min.jpg"
   alt: "Sunday scent - Marisha"
   width: 1200
   height: 1794
@@ -73,14 +45,15 @@ images:
   alt: "Sunday scent - Marisha"
   width: 1200
   height: 803
-- path: "/assets/images/2016/sunday-scent/R1-10-min.jpg"
+- path: "/assets/images/2016/sunday-scent/R1-12-min.jpg"
   alt: "Sunday scent - Marisha"
   width: 1200
-  height: 813
-- path: "/assets/images/2016/sunday-scent/R1-17-min.jpg"
+  height: 1794
+- path: "/assets/images/2016/sunday-scent/R1-06-min.jpg"
   alt: "Sunday scent - Marisha"
   width: 1200
-  height: 803
+  height: 1794
+
 ---
 Trăim in epoca în care spectacolul de suprafață este mai important decât esența. Epoca efectelor speciale. Sunt puțin revoltată (puțin = ambalaj finuț pentru mult) când văd cât de mult ne-am distanțat de naturalul și firescul uman.
 Percepția despre estetic, creativitatea și conectarea cu noi și cu ceilalți s-au

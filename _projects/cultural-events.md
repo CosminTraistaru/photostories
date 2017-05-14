@@ -28,8 +28,6 @@ images:
   alt: Cultural Events
 - path: /assets/uploads/StreetfestivalsTimisoara-c8808-10492404_881195698561691_4870896387013187332_n.jpg
   alt: Cultural Events
-- path: /assets/uploads/SoulGianinaIorgoaia-Picture-908.jpg
-  alt: Cultural Events
 - path: /assets/images/portfolio/cultural-events/DSC0608.jpg
   alt: Cultural Events
 - path: /assets/images/portfolio/cultural-events/SDF_1712.jpg
