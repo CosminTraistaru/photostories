@@ -1,5 +1,5 @@
 ---
-name: Lights 
+name: Lights
 subtitle:
 cover:
   path: /assets/images/portfolio/lights/cover.jpg
@@ -13,8 +13,6 @@ images:
 - path: /assets/images/portfolio/lights/R1-30.jpg
   alt: Lights
 - path: /assets/images/portfolio/lights/R1-101.jpg
-  alt: Lights
-- path: /assets/images/portfolio/lights/R1-19.jpg
   alt: Lights
 - path: /assets/images/portfolio/lights/R1-05.jpg
   alt: Lights

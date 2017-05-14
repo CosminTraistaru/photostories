@@ -11,7 +11,6 @@ featured:
   width: 1800
 ---
 
-A collection of stories.
 
 Most of the photographs are shoot on film in 35mm, black and white or color.
 

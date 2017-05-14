@@ -1,5 +1,5 @@
 ---
-name: Glimpses 
+name: Glimpses
 subtitle:
 cover:
   path: /assets/images/portfolio/glimpses/cover.jpg
@@ -15,8 +15,6 @@ images:
 - path: /assets/images/portfolio/glimpses/R1-33.jpg
   alt: Glimpses
 - path: /assets/images/portfolio/glimpses/R1-34.jpg
-  alt: Glimpses
-- path: /assets/images/portfolio/glimpses/R1-37.jpg
   alt: Glimpses
 location: 7
 ---
