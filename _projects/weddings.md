@@ -40,8 +40,6 @@ images:
   alt: Weddings
 - path: /assets/images/portfolio/weddings/R1-26.jpg
   alt: Weddings
-- path: /assets/images/portfolio/weddings/R1-35.jpg
-  alt: Weddings
 - path: /assets/images/portfolio/weddings/R1-36.jpg
   alt: Weddings
 - path: /assets/images/portfolio/weddings/R1-colaj.jpg
