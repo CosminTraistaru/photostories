@@ -10,6 +10,8 @@ featured:
   width: 1200
   height: 803
 images:
+- path: /assets/images/portfolio/weddings/R1-colaj.jpg
+  alt: Weddings
 - path: /assets/images/portfolio/weddings/R1-05.jpg
   alt: Weddings
 - path: /assets/images/portfolio/weddings/R1-27.jpg
@@ -41,8 +43,6 @@ images:
 - path: /assets/images/portfolio/weddings/R1-26.jpg
   alt: Weddings
 - path: /assets/images/portfolio/weddings/R1-36.jpg
-  alt: Weddings
-- path: /assets/images/portfolio/weddings/R1-colaj.jpg
   alt: Weddings
 location: 3
 ---
