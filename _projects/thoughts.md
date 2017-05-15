@@ -1,5 +1,5 @@
 ---
-name: Thoughts 
+name: Thoughts
 subtitle:
 cover:
   path: /assets/images/portfolio/portraits/cover.jpg
@@ -21,6 +21,8 @@ images:
   width: 1200
   height: 803
 - path: /assets/images/portfolio/portraits/R1-049.jpg
+  alt: Thoughts
+- path: /assets/images/portfolio/portraits/R1-timeea.jpg
   alt: Thoughts
 - path: /assets/images/portfolio/portraits/R1-74.jpg
   alt: Thoughts
