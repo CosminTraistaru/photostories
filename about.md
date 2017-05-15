@@ -13,10 +13,6 @@ images:
   alt: "Lorena Dumitrașcu PhotoStories"
   height: 1600
   width: 1200
-- path: "/assets/images/about/1.jpg"
-  alt: "Lorena Dumitrașcu PhotoStories"
-  height: 1600
-  width: 1200
 - path: "/assets/images/about/about-1.jpg"
   alt: "Lorena Dumitrașcu PhotoStories"
   height: 640
