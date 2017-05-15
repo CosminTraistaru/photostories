@@ -1,5 +1,5 @@
 ---
-name: Weddings 
+name: Weddings
 subtitle:
 cover:
   path: /assets/images/portfolio/weddings/cover.jpg
@@ -43,6 +43,8 @@ images:
 - path: /assets/images/portfolio/weddings/R1-35.jpg
   alt: Weddings
 - path: /assets/images/portfolio/weddings/R1-36.jpg
+  alt: Weddings
+- path: /assets/images/portfolio/weddings/R1-colaj.jpg
   alt: Weddings
 location: 3
 ---
