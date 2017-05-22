@@ -9,10 +9,10 @@ permalink: /2017/05/22/state-of-mind/
 categories:
 - Portraits
 cover:
-  path: "/assets/images/2017/stateofmind-R1-24.jpg"
+  path: "/assets/images/2017/stateofmind-cover.jpg"
   alt: "State of Mind"
-  height: 1200
-  width: 1311
+  height: 730
+  width: 798
 featured:
   path: "/assets/images/2017/stateofmind-R1-24.jpg"
   alt: "State of Mind"
