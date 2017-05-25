@@ -31,9 +31,8 @@ Incercam să explic cuiva cine sunt.
 
 Cine e Lorena Dumitrașcu.
 
-Am să restrâng multitudinea de răspunsuri la două "păi, e aia care iubește să facă poze și să danseze". Și-a găsit esența.
-Povestea cu "Piatra Recunoștinței" o știți... pastrezi piatra cu tine în buzunar tot timpul și spui pentru ce ești recunoscător.
-Bun, eu păstrez cuvintele acestea cu mine tot timpul și spun pentru ce sunt recunoscătoare și încep așa...
+Am să restrâng multitudinea de răspunsuri la două "păi, e aia care iubește să creeze fotografii și să danseze". Și-a găsit esența.
+Povestea cu "Piatra Recunoștinței" o știți... pastrezi piatra cu tine în buzunar tot timpul și spui pentru ce ești recunoscător. Eu păstrez cuvintele acestea cu mine tot timpul și spun pentru ce sunt recunoscătoare și încep așa...
 
 \- Sunt recunoscătoare pentru existența sublimului și a simplitații in oameni.
 
