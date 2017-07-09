@@ -19,11 +19,11 @@ featured:
   width: 1200
   height: 803
 images:
+- path: "/assets/images/2017/monde-de-merde-r1-17.jpg"
+  alt: "Monde de Merde"
 - path: "/assets/images/2017/monde-de-merde-r1-14-dumi.jpg"
   alt: "Monde de Merde"
 - path: "/assets/images/2017/monde-de-merde-r1-29.jpg"
-  alt: "Monde de Merde"
-- path: "/assets/images/2017/monde-de-merde-r1-17.jpg"
   alt: "Monde de Merde"
 ---
 
