@@ -69,6 +69,13 @@ document.getElementById("open-nav").onclick = function () {
 };
 // Menu open end
 </script>
+	<!--{% if page.title == "Portfolio" %}-->
+<!--<script>-->
+		<!--// Header image change start-->
+<!--document.querySelector("section.hero").style.backgroundImage = "url('{{ page.cover.path }}')";-->
+		<!--//Header image end-->
+<!--</script>-->
+	<!--{% endif %}-->
 
 {% if jekyll.environment == 'production' and site.google_analytics_key != '' %}
 	{% include google-analytics.html %}
