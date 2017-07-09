@@ -21,9 +21,9 @@ featured:
 images:
 - path: "/assets/images/2017/monde-de-merde-r1-17.jpg"
   alt: "Monde de Merde"
-- path: "/assets/images/2017/monde-de-merde-r1-14-dumi.jpg"
+- path: "/assets/images/2017/monde-de-merde-r1-29-dumi.jpg"
   alt: "Monde de Merde"
-- path: "/assets/images/2017/monde-de-merde-r1-29.jpg"
+- path: "/assets/images/2017/monde-de-merde-r1-14.jpg"
   alt: "Monde de Merde"
 ---
 
