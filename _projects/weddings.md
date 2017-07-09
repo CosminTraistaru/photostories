@@ -10,7 +10,7 @@ featured:
   width: 1200
   height: 803
 images:
-- path: /assets/images/portfolio/weddings/collage mazilu.jpg
+- path: /assets/images/portfolio/weddings/collagemazilu.jpg
   alt: Weddings
 - path: /assets/images/portfolio/weddings/R1-colaj.jpg
   alt: Weddings
