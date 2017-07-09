@@ -54,7 +54,7 @@ header {
 }
 
 section {
-	padding: 30px 0;
+	padding: 120px 0;
 	background: #fff;
 	margin-top: -2px;
 
@@ -75,10 +75,10 @@ section {
 
 	&.hero {
 		color: #ffffff;
-		background: $brand-color;
-		padding-top: 30px;
+		background: url(/assets/images/portfolio/portfolio-cover.jpg) $brand-color;
 		text-align: left;
-		margin-top: 80px;
+		margin-top: 50px;
+		min-height: 150px;
 
 		h2, p {
 			max-width: 90%;
