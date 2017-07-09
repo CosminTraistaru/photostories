@@ -18,5 +18,9 @@ images:
   alt: Lights
 - path: /assets/images/portfolio/lights/R1-27.jpg
   alt: Lights
+- path: /assets/images/portfolio/lights/R1-17.jpg
+  alt: Lights
+- path: /assets/images/portfolio/lights/R1-29.jpg
+  alt: Lights
 location: 6
 ---
