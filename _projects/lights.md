@@ -10,6 +10,8 @@ featured:
   width: 1200
   height: 1794
 images:
+- path: /assets/images/portfolio/lights/R1-22-silviu.jpg
+  alt: Lights
 - path: /assets/images/portfolio/lights/R1-17.jpg
   alt: Lights
 - path: /assets/images/portfolio/lights/R1-29.jpg
