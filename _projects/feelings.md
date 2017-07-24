@@ -12,6 +12,8 @@ featured:
 images:
 - path: /assets/images/portfolio/feelings/R1-14.jpg
   alt: Feelings
+- path: /assets/images/portfolio/feelings/R1-14-dumi.jpg
+  alt: Feelings
 - path: /assets/images/portfolio/feelings/R1-00.jpg
   alt: Feelings
 - path: /assets/images/portfolio/feelings/R1-06.jpg
@@ -29,8 +31,6 @@ images:
 - path: /assets/images/portfolio/feelings/R1-11.jpg
   alt: Feelings
 - path: /assets/images/portfolio/feelings/R1-36.jpg
-  alt: Feelings
-- path: /assets/images/portfolio/feelings/R1-14-dumi.jpg
   alt: Feelings
 - path: /assets/images/portfolio/feelings/R1-21-silviu.jpg
   alt: Feelings  
