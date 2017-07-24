@@ -34,7 +34,7 @@ images:
   alt: Feelings
 - path: /assets/images/portfolio/feelings/R1-21-silviu.jpg
   alt: Feelings  
--  path: /assets/images/portfolio/feelings/R1-29-silviu.jpg
+- path: /assets/images/portfolio/feelings/R1-29-silviu.jpg
   alt: Feelings   
 location: 4
 ---
