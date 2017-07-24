@@ -26,6 +26,8 @@ images:
   alt: Actors and Theatre
 - path: /assets/images/portfolio/feelings/R1-08.jpg
   alt: Actors and Theatre
+- path: /assets/images/portfolio/feelings/R1-21-silviu.jpg
+  alt: Actors and Theatre
 - path: /assets/uploads/OnastreetinTimisoara-3fbff-picture109.jpg
   alt: Actors and Theatre
 - path: /assets/images/portfolio/portraits/R1-08.jpg
