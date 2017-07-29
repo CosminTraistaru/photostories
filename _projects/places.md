@@ -32,5 +32,5 @@ images:
   alt: Places
 - path: /assets/images/portfolio/places/R1-00.jpg
   alt: Places
-location: 8
+published: false
 ---

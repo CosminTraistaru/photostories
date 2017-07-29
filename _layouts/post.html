@@ -11,9 +11,11 @@ author:
 		<div class="post-content">
 			{{ content }}
 			{% if page.images %}
+			<ul class="image-grid">
 				{% for image in page.images %}
 					{% include single-line-image.html image=image %}
 				{% endfor %}
+			</ul>
 			{% endif %}
 			{% if page.youtube %}
 				<iframe width="100%" height="400px" src="https://www.youtube.com/embed/{{ page.youtube }}" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>

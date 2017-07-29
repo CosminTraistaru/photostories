@@ -1,7 +1,7 @@
 ---
 layout: project
-title: Contact
-name: Contact
+title: Book a Session
+name: Book a Session
 subtitle:
 permalink: /contact/
 featured:
@@ -15,10 +15,12 @@ featured:
 Most of the photographs are shoot on film in 35mm, black and white or color.
 
 Photograph products for:
- - lifestyle portraits
- - theatre
- - weddings
- - festivals
+ - Lifestyle Portraits
+ - Theatre
+ - Weddings
+ - Festivals
+
+__For details about prices and available packages please contact the artist:__
 
 Email: [lorenadumitrascu@gmail.com](mailto:lorenadumitrascu@gmail.com)
 

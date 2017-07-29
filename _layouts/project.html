@@ -19,9 +19,11 @@ layout: default
 		<div>
 			{{ content }}
 			{% if page.images %}
+			<ul class="image-grid">
 				{% for image in page.images %}
 					{% include single-line-image.html image=image %}
 				{% endfor %}
+			</ul>
 			{% endif %}
 			{% include facebook-sharing.html %}
 		</div>
