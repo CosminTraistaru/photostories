@@ -12,6 +12,8 @@ featured:
 images:
 - path: /assets/images/portfolio/glimpses/R1-24.jpg
   alt: Glimpses
+- path: /assets/images/portfolio/glimpses/R1-32-silviu.jpg
+  alt: Glimpses
 - path: /assets/images/portfolio/glimpses/R1-19.jpg
   alt: Glimpses
 - path: /assets/images/portfolio/glimpses/R1-33.jpg
