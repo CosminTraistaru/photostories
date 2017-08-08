@@ -16,7 +16,7 @@ author:
   facebook: Dumitrascu.Lorena
   facebook_url: https://fb.com/Dumitrascu.Lorena
   instagram: lorena_dumitrascu
-  instagram_url: https://www.instagram.com/lorena_dumitrascu/
+  instagram_url: https://www.instagram.com/lightstories.ro/
   image:
     location: "/assets/images/about/about-3.jpg"
     alt: "Light Stories by Lorena Dumitrașcu"
@@ -41,7 +41,7 @@ social:
   links:
     - https://twitter.com/LorenaDumitrasc
     - https://www.facebook.com/lightstories.ro/
-    - https://www.instagram.com/lightstories_lorenadumitrascu/
+    - https://www.instagram.com/lightstories.ro/
 
 collections:
   projects:
