@@ -101,3 +101,6 @@ facebook_pixel_id: 302564243505232
 facebook:
   page_id: 299519020156870
   app_id: 1761090160786197
+
+feed:
+  limit: 99
